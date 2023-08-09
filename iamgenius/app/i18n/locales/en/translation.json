@@ -1,0 +1,129 @@
+{
+  "title": "I am Genius",
+  "about-genius": "About Genius",
+  "introduction": "<p>As originally issued in the November 13, 1979, National Enquirer, the front page prominently announced, \"Top Russian Scientists... DISCOVER UFO BASE ON SATURN MOON\". But the real story, was listed in the side bar of the front page, which stated, \"Qualities Geniuses Have in Common -- And How You Can Develop Them, page 46\".</p><p>and so, word for word, from page 46, ...</p>",
+  "24-qualities": "<h2>24 Qualities That Geniuses Have in Common</h2><p>The world's greatest geniuses have all had 24 personality characteristics in common -- and you can develop the same traits in yourself, says an expert.</p><p>\"Most people have the mistaken idea that geniuses are born, not made,\" declared clinical psychologist Dr. Alfred Barrios, founder and directory of the Self-Programmed Control Center of Los Angeles and author of the book, \"Towards Greater Freedom and Happiness.\"</p><p>\"But if you look at the lives of the world's greatest geniuses -- like Edison, Socrates, DaVinci, Shakespeare, Einstein -- you discover they all had 24 personality characteristics in common.\"</p><blockquote id=\"trait-quote\">. . . And You Can Develop Them Too, Says Expert</blockquote><p>\"These are traits that anyone can develop. It makes no difference how old you are, how much education you have, or what you have accomplished to date. Adopting these personality characteristics enables you to operate on a genius level.\"</p><p>Here are the 24 characteristics Dr. Barrios lists which enable geniuses to come up with and develop new and fruitful ideas:</p>",
+  "traits": [
+    {
+      "number": 1,
+      "name": "Drive",
+      "content": "Geniuses have a strong desire to work hard and long. They're willing to give all they've got to a project. Develop your drive by focusing on your future success, and keep going."
+    },
+    {
+      "number": 2,
+      "name": "Courage",
+      "content": "It takes courage to do things others consider impossible. Stop worrying what people will think if you are different."
+    },
+    {
+      "number": 3,
+      "name": "Devotion to goals",
+      "content": "Geniuses know what they want and go after it. Get control of your life and schedule. Have something specific to accomplish each day."
+    },
+    {
+      "number": 4,
+      "name": "Knowledge",
+      "content": "Geniuses continually accumulate information. Never go to sleep at night without having learned at least one new thing that day. Read. And question people who know."
+    },
+    {
+      "number": 5,
+      "name": "Honesty",
+      "content": "Geniuses are frank, forthright and honest. Take the responsibility for things that go wrong. Be willing to admit, 'I goofed,' and learn from your mistakes."
+    },
+    {
+      "number": 6,
+      "name": "Optimism",
+      "content": "Geniuses never doubt they will succeed. Deliberately focus your mind on something good coming up."
+    },
+    {
+      "number": 7,
+      "name": "Ability to judge",
+      "content": "Try to understand the facts of a situation before you judge. Evaluate things on an open-minded, unprejudiced basis and be willing to change your mind."
+    },
+    {
+      "number": 8,
+      "name": "Enthusiasm",
+      "content": "Geniuses are so excited about what they are doing, it encourages others to cooperate with them. Really believe that things will turn out well. Don't hold back."
+    },
+    {
+      "number": 9,
+      "name": "Willingness to take chances",
+      "content": "Overcome your fear of failure. You won't be afraid to take chances once you realize you can learn from your mistakes."
+    },
+    {
+      "number": 10,
+      "name": "Dynamic energy",
+      "content": "Don't sit on your butt waiting for something good to happen. Be determined to make it happen."
+    },
+    {
+      "number": 11,
+      "name": "Enterprise",
+      "content": "Geniuses are opportunity seekers. Be willing to take on jobs others won't touch. Never be afraid to try the unknown."
+    },
+    {
+      "number": 12,
+      "name": "Persuasion",
+      "content": "Geniuses know how to motivate people to help them get ahead. You'll find it easy to be persuasive if you believe in what you're doing."
+    },
+    {
+      "number": 13,
+      "name": "Outgoingness",
+      "content": "I've found geniuses able to make friends easily and be easy on their friends. Be a 'booster,' not someone who puts others down. That attitude will win you many valuable friends."
+    },
+    {
+      "number": 14,
+      "name": "Ability to communicate",
+      "content": "Geniuses are able to effectively get their ideas across to others. Take every opportunity to explain your ideas to others."
+    },
+    {
+      "number": 15,
+      "name": "Patience",
+      "content": "Geniuses are able to effectively get their ideas across to others. Take every opportunity to explain your ideas to others."
+    },
+    {
+      "number": 16,
+      "name": "Perception",
+      "content": "Geniuses have their mental radar working full time. Think more of others' needs and wants that you do of your own."
+    },
+    {
+      "number": 17,
+      "name": "Perfectionism",
+      "content": "Geniuses cannot tolerate mediocrity, particularly in themselves. Never be easily satisfied with yourself. Always strive to do better."
+    },
+    {
+      "number": 18,
+      "name": "Sense of humor",
+      "content": "Be willing to laugh at your own expense. Don't take offense when the joke is on you."
+    },
+    {
+      "number": 19,
+      "name": "Versatility",
+      "content": "The more things you learn to accomplish, the more confidence you will develop. Don't shy away from new endeavors."
+    },
+    {
+      "number": 20,
+      "name": "Adaptability",
+      "content": "Being flexible enables you to adapt to changing circumstances readily. Resist doing things the same old way. Be willing to consider new options."
+    },
+    {
+      "number": 21,
+      "name": "Curiosity",
+      "content": "An inquisitive, curious mind will help you seek out new information. Don't be afraid to admit you don't know it all. Always ask questions about things you don't understand."
+    },
+    {
+      "number": 22,
+      "name": "Individualism",
+      "content": "Do things the way you think they should be done, without fearing somebody's disapproval."
+    },
+    {
+      "number": 23,
+      "name": "Idealism",
+      "content": "Keep your feet on the ground -- but have your head in the clouds. Strive to achieve great things, not just for yourself, but for the betterment of mankind."
+    },
+    {
+      "number": 24,
+      "name": "Imagination",
+      "content": "Geniuses know how to think in new combinations, see things from a different perspective, than anyone else. Unclutter your mental environment to develop this type of imagination. Give yourself time each day to daydream, to fantasize, to drift into a dreamy inner life the way you did as a child."
+    }
+  ],
+  "articleCopyright": "© 2023 I Am Genius. All rights reserved. | Copyright © 1979, originally National Enquirer, Inc., Copyright © 2023, VVIP Ventures, LLC. All Rights Reserved."
+}
