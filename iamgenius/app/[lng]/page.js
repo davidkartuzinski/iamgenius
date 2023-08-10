@@ -5,7 +5,7 @@ import Trait from "../../components/ui/Trait";
 export default async function Page({ params: { lng } }) {
   const { t } = await useTranslation(lng);
   return (
-    <article className="flex min-h-screen flex-col p-24">
+    <article className="mx-auto w-full max-w-screen-lg p-4 py-6 lg:py-8">
       <h1>{t("title")}</h1>
       <div dangerouslySetInnerHTML={{ __html: t("introduction") }}></div>
       <div dangerouslySetInnerHTML={{ __html: t("24-qualities") }}></div>
