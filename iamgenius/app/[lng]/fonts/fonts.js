@@ -1,17 +1,5 @@
-import { Frank_Ruhl_Libre, Source_Sans_3, Work_Sans } from 'next/font/google';
+import { Frank_Ruhl_Libre } from 'next/font/google';
 import localFont from 'next/font/local';
-
-export const work_sans = Work_Sans({
-  subsets: ['latin'],
-  variable: '--font-work_sans',
-  display: 'swap',
-});
-
-export const source_sans_3 = Source_Sans_3({
-  subsets: ['latin'],
-  variable: '--font-source_sans_3',
-  display: 'swap',
-});
 
 export const frank_ruhl_libre = Frank_Ruhl_Libre({
   subsets: ['latin'],

@@ -1,0 +1,15 @@
+#traits h2 {
+  font-family: var(--font-tempo_heavy), sans-serif;
+  line-height: 1.6;
+  /* font-size: 38px; */
+}
+#traits #trait-quote {
+  font-family: var(--font-tempo_standard), sans-serif;
+  line-height: 1.5;
+  /* font-size: 34px; */
+}
+#traits h3 {
+  font-family: var(--font-frank_ruhl_libre), serif;
+  line-height: 1.5;
+  /* font-size: 34px; */
+}

@@ -1,0 +1,6 @@
+.footer {
+  grid-area: footer;
+  padding: 2rem 1rem;
+  background-color: var(--white-bg-color);
+  color: var(--grey-font-color);
+}

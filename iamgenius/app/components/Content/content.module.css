@@ -1,0 +1,12 @@
+.content {
+  grid-area: content;
+  padding: 2rem 1rem;
+  background-color: var(--white-bg-color);
+  color: var(--grey-font-color);
+}
+
+.content_inner {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
