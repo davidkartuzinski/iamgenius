@@ -25,13 +25,13 @@
 }
 
 .navigation_menu li a {
-  color: black;
+  color: var(--grey-font-color);
   /* width: 100%; */
   /* padding: 1.5rem 0; */
 }
 
-.navigation_menu li:hover {
-  background-color: #eee;
+.navigation_menu li a:hover {
+  color: var(--orange-accent-color);
 }
 
 .navigation_menu.expanded ul {
