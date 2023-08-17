@@ -4,6 +4,8 @@
 
 .hamburger {
   display: block;
+  position: absolute;
+  right: 0;
 }
 
 .navigation_menu ul {
