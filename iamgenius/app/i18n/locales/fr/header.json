@@ -1,3 +1,5 @@
 {
-  "languageSwitcher": "Passer de <1>{{lng}}</1> à : "
+  "home": "Accueil",
+  "about": "Qui sommes-nous ?",
+  "contact": "Contactez-nous"
 }

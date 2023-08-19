@@ -1,3 +1,5 @@
 {
-  "languageSwitcher": "Cambiar de <1>{{lng}}</1> a: "
+  "home": "Inicio",
+  "about": "Quiénes somos",
+  "contact": "Contáctenos"
 }
