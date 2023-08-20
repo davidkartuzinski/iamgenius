@@ -10,9 +10,9 @@ import {
 } from './fonts/fonts';
 import styles from './layout.module.css';
 
-import { Content } from '../components/Content';
+import { Content } from '../components/server-side/Content';
 import { Footer } from '../components/Footer';
-import { Header } from '../components/Header';
+import { Header } from '../components/server-side/Header';
 
 export const metadata = {
   title: 'I am Genius',

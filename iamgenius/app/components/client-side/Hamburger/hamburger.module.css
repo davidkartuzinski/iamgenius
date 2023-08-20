@@ -5,7 +5,7 @@
 .hamburger {
   display: block;
   position: absolute;
-  right: 6rem;
+  right: 1.25rem;
   background-color: var(--white);
   border: solid 1px var(--grey);
   border-radius: 3px;
@@ -20,10 +20,10 @@
 .navigation_menu ul {
   flex-direction: column;
   position: absolute;
-  top: 90px;
+  top: 75px;
   left: 0;
   width: 100%;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 60px);
   background-color: var(--white);
   border-top: 1px solid var(--orange);
   display: none;
@@ -43,8 +43,10 @@
   color: var(--grey);
   width: 100%;
 }
-.navigation_menu li a {
+.navigation_menu li a,
+.navigation_menu li strong {
   padding-bottom: 4px;
+  font-size: 1.8rem;
 }
 
 .navigation_menu li a:hover {
@@ -55,6 +57,10 @@
 
 .navigation_menu.expanded ul {
   display: block;
+}
+
+.navigation_menu.expanded ul li {
+  padding: 2rem 0;
 }
 
 .svg {
@@ -75,15 +81,31 @@
     border-top: none;
     background-color: var(--white-bg-color);
   }
+
+  .navigation_menu ul li:last-child {
+    padding-left: 2rem;
+  }
   .navigation_menu li {
     list-style-type: none;
     margin: 0 1rem;
+    width: unset;
+    padding: 0.5rem 0 0 0;
+    height: unset;
   }
   .navigation_menu li a {
     text-decoration: none;
     display: block;
     width: 100%;
+    text-transform: uppercase;
+    font-size: 1.375rem;
   }
+
+  .navigation_menu li strong,
+  .navigation_menu li span a {
+    font-size: 1.2rem;
+    padding-top: 0.25rem;
+  }
+
   .hamburger {
     border: 0;
     height: 40px;

@@ -1,12 +1,12 @@
 import Link from 'next/link';
 
 import { Trans } from 'react-i18next/TransWithoutContext';
-import { useTranslation } from '../../i18n';
-import { languages } from '../../i18n/settings';
+import { useTranslation } from '../../../i18n';
+import { languages } from '../../../i18n/settings';
 
 import Logo from '../Logo';
-import Hamburger from '../client-side/Hamburger';
-import { ActiveLink } from '../client-side/ActiveLink';
+import Hamburger from '../../client-side/Hamburger';
+import { ActiveLink } from '../../client-side/ActiveLink';
 
 import styles from './header.module.css';
 
