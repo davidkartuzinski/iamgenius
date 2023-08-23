@@ -1,13 +1,25 @@
 import styles from './trait.module.css';
+import { slugify } from '../../../lib/utils';
+import Link from 'next/link';
+
+//https://levelup.gitconnected.com/accessible-anchor-links-a-key-element-of-inclusive-web-design-30e6d786fec9
+// https://amberwilson.co.uk/blog/are-your-anchor-links-accessible/
 
 function Trait({ number, name, content }) {
   return (
-    <p className='mb-6 max-w-2xl flex-row font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl'>
-      <h3 className='text-1xl inline pr-2 font-bold dark:text-white'>
-        {number}. {name}.
-      </h3>
-      <span>"{content}"</span>
-    </p>
+    <div id={`${slugify(name)}`} className={styles.traits}>
+      <h3 id={`#${slugify(name)}-heading`}>
+        <Link
+          href={`#${slugify(name)}`}
+          aria-label={`Go to trait ${number} ${slugify(name)}`}
+          className={styles.anchor_link}
+        >
+          {' '}
+          {number}. {name}.
+        </Link>
+      </h3>{' '}
+      <p>"{content}"</p>
+    </div>
   );
 }
 

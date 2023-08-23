@@ -1,11 +1,31 @@
 'use client';
 import styles from './hamburger.module.css';
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
+
+// https://github.com/thekietvuong/Dropdown-Menu-in-React/blob/master/src/App.js
 
 const Hamburger = ({ children }) => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
+
+  let menuRef = useRef();
+
+  useEffect(() => {
+    let handler = (e) => {
+      if (!menuRef.current.contains(e.target)) {
+        setIsNavExpanded(false);
+        console.log(menuRef.current);
+      }
+    };
+
+    document.addEventListener('mousedown', handler);
+
+    return () => {
+      document.removeEventListener('mousedown', handler);
+    };
+  });
+
   return (
-    <>
+    <div>
       <button
         className={styles.hamburger}
         onClick={() => {
@@ -35,9 +55,11 @@ const Hamburger = ({ children }) => {
             : `${styles['navigation_menu']}`
         }
       >
-        {children}
+        <div className={styles.ul_container}>
+          <ul ref={menuRef}>{children}</ul>
+        </div>
       </div>
-    </>
+    </div>
   );
 };
 

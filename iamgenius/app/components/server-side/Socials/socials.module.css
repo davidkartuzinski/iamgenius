@@ -1,0 +1,16 @@
+.social_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.social_icons {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.social_links {
+  text-decoration: none;
+  color: var(--grey);
+}

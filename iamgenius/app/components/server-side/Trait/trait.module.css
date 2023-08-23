@@ -1,15 +1,41 @@
-#traits h2 {
-  font-family: var(--font-tempo_heavy), sans-serif;
-  line-height: 1.6;
-  /* font-size: 38px; */
+.traits {
+  margin-bottom: 1.5rem;
 }
-#traits #trait-quote {
-  font-family: var(--font-tempo_standard), sans-serif;
+
+.traits p {
   line-height: 1.5;
-  /* font-size: 34px; */
+  display: inline;
 }
-#traits h3 {
+.traits h3 {
   font-family: var(--font-frank_ruhl_libre), serif;
   line-height: 1.5;
-  /* font-size: 34px; */
+  display: inline;
+}
+
+.traits h3 a {
+  color: var(--grey);
+  cursor: pointer;
+}
+
+.traits h3:hover,
+.traits a:hover {
+  text-decoration: underline;
+}
+
+/* so "inspired" by this website */
+/* https://almanac.httparchive.org/en/2020/accessibility#zooming-and-scaling */
+
+.anchor_link {
+  padding-left: 30px;
+  margin-left: -30px;
+}
+
+.anchor_link:hover::before,
+.anchor_link:focus::before {
+  content: url('~/public/link/link.svg');
+  left: -25px;
+  position: relative;
+  float: left;
+  width: 0;
+  height: 0;
 }

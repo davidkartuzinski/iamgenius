@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import logo from './logo.png';
 
-const Logo = ({ width = '133', height = '55' }) => {
+const Logo = ({ width = '97', height = '40' }) => {
   return (
     <Image
       priority

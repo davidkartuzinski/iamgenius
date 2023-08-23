@@ -5,11 +5,9 @@
 .hamburger {
   display: block;
   position: absolute;
-  right: 1.25rem;
+  right: 0.75rem;
   background-color: var(--white);
-  border: solid 1px var(--grey);
-  border-radius: 3px;
-  transition: background-color 2s ease-out 100ms;
+  border: none;
 }
 
 .hamburger:hover {
@@ -17,8 +15,7 @@
   border: solid 1px var(--grey);
 }
 
-.navigation_menu ul {
-  flex-direction: column;
+.navigation_menu .ul_container {
   position: absolute;
   top: 75px;
   left: 0;
@@ -28,6 +25,13 @@
   border-top: 1px solid var(--orange);
   display: none;
   padding-top: 2rem;
+  padding-left: 3rem;
+}
+
+.navigation_menu ul {
+  flex-direction: column;
+
+  width: 100%;
 }
 
 .navigation_menu li {
@@ -55,7 +59,7 @@
   cursor: pointer;
 }
 
-.navigation_menu.expanded ul {
+.navigation_menu.expanded .ul_container {
   display: block;
 }
 
