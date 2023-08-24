@@ -1,14 +1,11 @@
 .translation_switcher {
   text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
 }
 
 .translation_switcher strong {
   color: var(--orange);
-  margin-right: 2rem;
-}
-
-.translation_switcher span {
-  margin-right: 2rem;
 }
 
 /* // Small devices (landscape phones, 576px and up) */

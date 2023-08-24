@@ -3,6 +3,8 @@
   padding: 2rem 0.75rem;
   background-color: var(--white-bg-color);
   color: var(--grey-font-color);
+  max-width: 500px;
+  align-self: center;
 }
 
 .content_inner {

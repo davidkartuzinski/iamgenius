@@ -13,8 +13,11 @@ export const FooterBase = async ({ lng }) => {
       <div className={styles.footer_column}>
         <h2>Languages</h2>
         <ul>
-          <li>
-            <LanguageSwitcher lng={lng} />
+          <li className={styles.li_language}>
+            <LanguageSwitcher
+              lng={lng}
+              className={styles.translation_switcher3}
+            />
           </li>
         </ul>
       </div>

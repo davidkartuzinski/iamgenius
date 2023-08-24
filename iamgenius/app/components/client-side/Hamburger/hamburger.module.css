@@ -5,9 +5,10 @@
 .hamburger {
   display: block;
   position: absolute;
-  right: 0.75rem;
+  right: 0.3rem;
   background-color: var(--white);
   border: none;
+  top: 10px;
 }
 
 .hamburger:hover {

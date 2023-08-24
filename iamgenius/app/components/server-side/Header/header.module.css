@@ -24,6 +24,11 @@
   display: inline-block;
 }
 
+.header ul {
+  width: 70%;
+  max-width: 200px;
+}
+
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .header {

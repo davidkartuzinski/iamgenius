@@ -10,7 +10,9 @@ export const LanguageSwitcher = async ({ lng }) => {
   return (
     <div className={styles.translation_switcher}>
       <Trans i18nKey='languageSwitcher' t={t}>
-        <strong> {{ lng }}</strong>
+        <span>
+          <strong>{{ lng }}</strong>
+        </span>
       </Trans>
 
       {languages
@@ -18,7 +20,7 @@ export const LanguageSwitcher = async ({ lng }) => {
         .map((l, index) => {
           return (
             <span key={l}>
-              {index > 0 && ' '}
+              {index > 0 && ''}
               <Link className='underline' href={`/${l}`}>
                 {l}
               </Link>
