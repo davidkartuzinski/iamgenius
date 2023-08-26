@@ -1,8 +1,51 @@
 {
-  "title": "Je suis génie !",
-  "about-genius": "À propos de Je suis génie",
-  "introduction": "<p>Comme publié à l'origine dans le National Enquirer du 13 novembre 1979, la première page annonçait en évidence : \"Les meilleurs scientifiques russes... DÉCOUVREZ LA BASE D'OVNI SUR LA LUNE DE SATRUNE\". Mais la véritable histoire était répertoriée sur le côté, barre de la première page, qui indiquait, \"Les qualités que les génies ont en commun -- et comment vous pouvez les développer, page 46\".</p><p>Et ainsi, mot pour mot, à partir de la page 46, ...</p>",
-  "24-qualities": "<h2>24 qualités que les génies ont en commun</h2><p>Les plus grands génies du monde ont tous 24 caractéristiques de personnalité en commun ; vous pouvez développer les mêmes traits en vous-même, selon un expert. </p><p>\"La plupart des gens ont l'idée erronée que les génies sont nés, pas créés\", a déclaré le psychologue clinicien Dr Alfred Barrios, fondateur et directeur du Self-Programmed Control Center de Los Angeles et auteur du livre, \"Towards Greater Freedom and Happiness. (Vers plus de liberté et de bonheur.)\"</p><p>\"Mais si vous regardez la vie des plus grands génies du monde - comme Edison, Socrate, DaVinci, Shakespeare, Einstein - vous découvrez qu'ils tous avaient 24 caractéristiques de personnalité en commun.\"</p><blockquote id=\"trait-quote\">. . . Et vous pouvez aussi les développer, déclare un expert</blockquote><p>\"Ce sont des traits que n'importe qui peut développer. Peu importe votre âge, votre niveau d'instruction ou ce que vous avez accompli à ce jour. Adopter ces caractéristiques de personnalité vous permet d'opérer à un niveau de génie.\"</p><p>Voici les 24 listes de caractéristiques du Dr Barrios qui permettent aux génies de proposer et de développer des idées nouvelles et fructueuses :</p>",
+  "traits-menu": [
+    {
+      "number": 1,
+      "name": "Lecteur"
+    },
+    {
+      "number": 2,
+      "name": "Courage"
+    },
+    {
+      "number": 3,
+      "name": "Connaissance"
+    },
+
+    {
+      "number": 4,
+      "name": "Optimisme"
+    },
+    {
+      "number": 5,
+      "name": "Enterprise"
+    },
+    {
+      "number": 6,
+      "name": "Persuasion"
+    },
+
+    {
+      "number": 7,
+      "name": "Individualisme"
+    },
+    {
+      "number": 8,
+      "name": "Idéalisme"
+    },
+    {
+      "number": 9,
+      "name": "Imagination"
+    }
+  ],
+  "title": "Qualités que les génies ont en commun – et comment les développer",
+  "introduction": "Il n'est jamais trop tard pour devenir un génie et changer votre monde. Comme publié à l'origine dans le National Enquirer du 13 novembre 1979, découvrez comment vous pouvez commencer à développer personnellement les qualités d'un génie.",
+  "article-title": "24 qualités que les génies ont en commun",
+  "24-qualities-1": "<p>Les plus grands génies du monde ont tous 24 caractéristiques de personnalité en commun ; vous pouvez développer les mêmes traits en vous-même, selon un expert. </p><p>\"La plupart des gens ont l'idée erronée que les génies sont nés, pas créés\", a déclaré le psychologue clinicien Dr Alfred Barrios, fondateur et directeur du Self-Programmed Control Center de Los Angeles et auteur du livre, \"Towards Greater Freedom and Happiness. (Vers plus de liberté et de bonheur.)\"</p><p>\"Mais si vous regardez la vie des plus grands génies du monde - comme Edison, Socrate, DaVinci, Shakespeare, Einstein - vous découvrez qu'ils tous avaient 24 caractéristiques de personnalité en commun.\"</p>",
+  "24-qualities-quote": ". . . Et vous pouvez aussi les développer,",
+  "24-qualities-quote-author": "déclare un expert",
+  "24-qualities-2": "<p>\"Ce sont des traits que n'importe qui peut développer. Peu importe votre âge, votre niveau d'instruction ou ce que vous avez accompli à ce jour. Adopter ces caractéristiques de personnalité vous permet d'opérer à un niveau de génie.\"</p><p>Voici les 24 listes de caractéristiques du Dr Barrios qui permettent aux génies de proposer et de développer des idées nouvelles et fructueuses :</p>",
   "traits": [
     {
       "number": 1,
@@ -126,5 +169,6 @@
     }
   ],
   "articleCopyright-1": "Droit d'auteur © 2023, I Am Genius. Tous les droits sont réservés.",
-  "articleCopyright-2": "Droit d'auteur © 1979, à l'origine National Enquirer, Inc., Droit d'auteur © 2023, VVIP Ventures, LLC. Tous les droits sont réservés."
+  "articleCopyright-2": "Droit d'auteur © 1979, à l'origine National Enquirer, Inc., Droit d'auteur © 2023, VVIP Ventures, LLC. Tous les droits sont réservés.",
+  "about-genius": "À propos de Je suis génie"
 }

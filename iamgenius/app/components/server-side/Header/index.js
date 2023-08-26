@@ -32,6 +32,18 @@ export const Header = async ({ lng }) => {
             <LanguageSwitcher lng={lng} />
           </li>
         </Hamburger>
+        <ul className={styles.main_menu}>
+          <li>
+            <ActiveLink href={`/${lng}`}>{t('home')}</ActiveLink>
+          </li>
+          <li>
+            <ActiveLink href={`/${lng}/about`}>{t('about')}</ActiveLink>
+          </li>
+          <li>
+            <ActiveLink href={`/${lng}/contact`}>{t('contact')}</ActiveLink>
+          </li>
+        </ul>
+        <LanguageSwitcher lng={lng} />
       </nav>
     </header>
   );

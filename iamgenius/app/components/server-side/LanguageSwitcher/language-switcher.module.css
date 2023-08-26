@@ -12,5 +12,10 @@
 @media (min-width: 576px) {
   .translation_switcher {
     display: flex;
+    padding-left: 1rem;
+  }
+
+  .translation_switcher span {
+    padding-left: 1rem;
   }
 }

@@ -29,12 +29,21 @@
   max-width: 200px;
 }
 
+.main_menu {
+  display: none;
+}
+
+.navigation > div:last-of-type {
+  display: none;
+}
+
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .header {
     width: 100%;
     padding: 1rem 0 0;
   }
+
   .logo_link {
     margin-top: 0;
   }
@@ -47,5 +56,29 @@
     width: 100%;
     padding: 1.5rem 2rem 2rem;
     font-family: var(--font-tempo_standard);
+    justify-content: space-between;
+  }
+}
+
+/* To show main menu fully */
+@media (min-width: 670px) {
+  .navigation > div:last-of-type {
+    display: flex;
+  }
+  .header ul {
+    width: unset;
+    max-width: none;
+  }
+  .main_menu {
+    display: flex;
+    color: var(--grey);
+  }
+
+  .main_menu li {
+    padding-left: 1rem;
+  }
+
+  .main_menu a {
+    color: var(--grey);
   }
 }

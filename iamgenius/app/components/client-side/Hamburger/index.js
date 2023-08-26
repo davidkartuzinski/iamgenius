@@ -15,6 +15,10 @@ const Hamburger = ({ children }) => {
         setIsNavExpanded(false);
         console.log(menuRef.current);
       }
+      // if (document.getElementById('hamburger').contains(e.target)) {
+      //   setIsNavExpanded(false);
+      //   console.log(menuRef.current, 'here');
+      // }
     };
 
     document.addEventListener('mousedown', handler);
@@ -27,6 +31,7 @@ const Hamburger = ({ children }) => {
   return (
     <div>
       <button
+        id='hamburger'
         className={styles.hamburger}
         onClick={() => {
           setIsNavExpanded(!isNavExpanded);

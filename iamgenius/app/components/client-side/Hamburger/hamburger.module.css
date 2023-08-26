@@ -75,6 +75,14 @@
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  .navigation_menu ul li div,
+  .navigation_menu li div span {
+    padding: 0;
+  }
+}
+
+/* To show main menu fully */
+@media (min-width: 670px) {
   .navigation_menu ul {
     display: flex;
     flex-direction: row;
