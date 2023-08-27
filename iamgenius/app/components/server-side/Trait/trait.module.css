@@ -3,12 +3,11 @@
 }
 
 .traits p {
-  line-height: 1.5;
   display: inline;
 }
 .traits h3 {
   font-family: var(--font-frank_ruhl_libre), serif;
-  line-height: 1.5;
+
   display: inline;
 }
 

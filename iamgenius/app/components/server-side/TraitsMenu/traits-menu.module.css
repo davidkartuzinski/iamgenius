@@ -1,3 +1,20 @@
+/* // X-Small devices (portrait phones, less than 576px)
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... } */
+
 .traits_menu_nav {
   display: flex;
   flex-direction: column;
@@ -17,7 +34,7 @@
   height: auto;
   width: 33%;
   text-align: left;
-  font-size: 0.96rem;
+
   letter-spacing: 0.08rem;
   font-family:
     var(--font-tempo_standard),
@@ -47,14 +64,13 @@
   }
   .traits_menu_link {
     width: 30%;
-    font-size: 70%;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .traits_menu_nav {
-    height: 280px;
+    height: 135px;
     padding: 0.5rem 3rem;
   }
   .traits_menu_link {
@@ -65,7 +81,7 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .traits_menu_nav {
-    height: 200px;
+    height: 135px;
     padding: 0.5rem 3rem;
   }
   .traits_menu_link {

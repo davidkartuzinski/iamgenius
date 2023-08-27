@@ -1,17 +1,19 @@
 .header {
   margin-bottom: 3rem;
-  max-width: 1220px;
+
   padding: 1.5rem 0 1rem;
   background-color: var(--white);
   border-top: solid 10px var(--orange);
 }
 
 .navigation {
+  margin: 0 auto;
   position: relative;
   display: flex;
   align-items: center;
   height: 60px;
   width: 100%;
+  max-width: 1220px;
   padding: 1.5rem 0.75rem 2rem;
   font-family: var(--font-tempo_standard);
 }
@@ -75,7 +77,7 @@
   }
 
   .main_menu li {
-    padding-left: 1rem;
+    padding-left: 3rem;
   }
 
   .main_menu a {

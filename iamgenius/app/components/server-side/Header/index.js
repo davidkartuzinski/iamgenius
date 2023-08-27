@@ -18,31 +18,33 @@ export const Header = async ({ lng }) => {
         <Link href={`/${lng}`} className={styles.logo_link}>
           <Logo />
         </Link>
-        <Hamburger>
-          <li>
-            <ActiveLink href={`/${lng}`}>{t('home')}</ActiveLink>
-          </li>
-          <li>
-            <ActiveLink href={`/${lng}/about`}>{t('about')}</ActiveLink>
-          </li>
-          <li>
-            <ActiveLink href={`/${lng}/contact`}>{t('contact')}</ActiveLink>
-          </li>
-          <li>
-            <LanguageSwitcher lng={lng} />
-          </li>
-        </Hamburger>
-        <ul className={styles.main_menu}>
-          <li>
-            <ActiveLink href={`/${lng}`}>{t('home')}</ActiveLink>
-          </li>
-          <li>
-            <ActiveLink href={`/${lng}/about`}>{t('about')}</ActiveLink>
-          </li>
-          <li>
-            <ActiveLink href={`/${lng}/contact`}>{t('contact')}</ActiveLink>
-          </li>
-        </ul>
+        <div>
+          <Hamburger>
+            <li>
+              <ActiveLink href={`/${lng}`}>{t('home')}</ActiveLink>
+            </li>
+            <li>
+              <ActiveLink href={`/${lng}/about`}>{t('about')}</ActiveLink>
+            </li>
+            <li>
+              <ActiveLink href={`/${lng}/contact`}>{t('contact')}</ActiveLink>
+            </li>
+            <li>
+              <LanguageSwitcher lng={lng} />
+            </li>
+          </Hamburger>
+          <ul className={styles.main_menu}>
+            <li>
+              <ActiveLink href={`/${lng}`}>{t('home')}</ActiveLink>
+            </li>
+            <li>
+              <ActiveLink href={`/${lng}/about`}>{t('about')}</ActiveLink>
+            </li>
+            <li>
+              <ActiveLink href={`/${lng}/contact`}>{t('contact')}</ActiveLink>
+            </li>
+          </ul>
+        </div>
         <LanguageSwitcher lng={lng} />
       </nav>
     </header>
