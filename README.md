@@ -13,3 +13,7 @@ I have had to learn how to do various things for this app. The following people 
 - [Joseph Mawa](https://github.com/nibble0101) wrote this [primer on next/images with SVGs on LogRocket](https://blog.logrocket.com/import-svgs-next-js-apps/).
 
 3. A more modern CSS reset by [Josh Comeau](https://twitter.com/joshwcomeau) who wrote and shared his [modern CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/).
+
+4. Fluid Typography by [Christian Diaz](https://www.itscrisdiaz.com/) writing over at [LogRocket - Fluid vs. responsive typography with CSS clamp](https://blog.logrocket.com/fluid-vs-responsive-typography-css-clamp/). Great tool for [fluid typography](https://www.fluid-type-scale.com/).
+
+5. Calculating line-height was helped with this [great explanation of line-height calc option](https://css-typography-line-height.netlify.app/)
