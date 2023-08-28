@@ -14,6 +14,8 @@ I have had to learn how to do various things for this app. The following people 
 
 3. A more modern CSS reset by [Josh Comeau](https://twitter.com/joshwcomeau) who wrote and shared his [modern CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/).
 
-4. Fluid Typography by [Christian Diaz](https://www.itscrisdiaz.com/) writing over at [LogRocket - Fluid vs. responsive typography with CSS clamp](https://blog.logrocket.com/fluid-vs-responsive-typography-css-clamp/). Great tool for [fluid typography](https://www.fluid-type-scale.com/).
+4. Fluid Typography by [Christian Diaz](https://www.itscrisdiaz.com/) writing over at [LogRocket - Fluid vs. responsive typography with CSS clamp](https://blog.logrocket.com/fluid-vs-responsive-typography-css-clamp/). Great tool for [fluid typography](https://www.fluid-type-scale.com/). This [fluid tool for a single element](https://min-max-calculator.9elements.com/) was helpful for determining the calc for my blockquote component.
 
 5. Calculating line-height was helped with this [great explanation of line-height calc option](https://css-typography-line-height.netlify.app/)
+
+6. Tool to ensure colors were accessible: [Accessible Color Generator by Erik Kennedy](https://www.learnui.design/tools/accessible-color-generator.html)
