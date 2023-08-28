@@ -13,6 +13,13 @@
   letter-spacing: 0.03rem;
 }
 
+.traits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .wrapper {

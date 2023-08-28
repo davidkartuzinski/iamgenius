@@ -18,7 +18,7 @@ export default async function Page({ params: { lng } }) {
         ></Blockquote>
         <div dangerouslySetInnerHTML={{ __html: t('24-qualities-2') }}></div>
       </section>
-      <section id='traits'>
+      <section id='traits' className={styles.traits}>
         {t('traits', { returnObjects: true }).map(
           ({ number, name, content }) => (
             <Trait key={number} number={number} name={name} content={content} />
