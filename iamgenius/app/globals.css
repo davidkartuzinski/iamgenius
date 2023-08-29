@@ -83,6 +83,7 @@ h6 {
     --fs-md: clamp(1.2rem, 0.734vw + 1.054rem, 1.641rem);
     --fs-lg: clamp(1.281rem, 1.283vw + 1.024rem, 2.051rem);
     --fs-xl: clamp(1.367rem, 1.995vw + 0.968rem, 2.563rem);
+    --fs-quote: clamp(1.367rem, 1.995vw + 0.968rem, 2.363rem);
   }
 }
 /* Fallback variables for browsers that don't support clamp */
