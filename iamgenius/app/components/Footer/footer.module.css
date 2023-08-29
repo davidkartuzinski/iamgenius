@@ -1,0 +1,105 @@
+.footer {
+  grid-area: footer;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: var(--white);
+  color: var(--grey);
+  font-family:
+    var(--font-tempo_standard),
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
+}
+
+.footer > div {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.footer a {
+  color: var(--grey);
+}
+
+.footer ul {
+  align-self: center;
+  padding-top: 6px;
+  width: 40%;
+}
+
+.footer .li_language {
+  width: 80%;
+}
+
+.footer_column {
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.footer_socials {
+  width: 40%;
+}
+
+/* .footer_socials div:first-of-type {
+  padding-top: 17px;
+} */
+
+.footer_socials a:first-of-type {
+  display: none;
+}
+
+.footer_privacy_links {
+  padding-right: 5%;
+}
+
+.privacy_box {
+  font-size: 86%;
+  text-align: left;
+  padding: 1rem 2rem;
+  max-width: 660px;
+  display: flex;
+  flex-direction: column;
+}
+
+.horizontal_rule {
+  margin: 3rem 0;
+  color: var(--orange);
+}
+
+@media (min-width: 576px) {
+  .footer div,
+  .footer div span {
+    padding: 0;
+  }
+  .privacy_box p {
+    padding: 0rem 4rem;
+  }
+}
+
+/* To show main menu fully */
+@media (min-width: 670px) {
+  .footer ul span,
+  .footer ul div {
+    padding-left: 0;
+  }
+  .footer .privacy_box {
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .footer .privacy_box p {
+    width: 45%;
+    padding: 0rem 1rem;
+  }
+}

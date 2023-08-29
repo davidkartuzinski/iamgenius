@@ -1,0 +1,13 @@
+.content {
+  padding: 2rem 0.75rem;
+  background-color: var(--white-bg-color);
+  color: var(--grey-font-color);
+  max-width: 620px;
+  align-self: center;
+}
+
+.content_inner {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}

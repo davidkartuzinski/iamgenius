@@ -1,0 +1,138 @@
+.navigation_menu {
+  margin-left: auto;
+}
+
+.hamburger {
+  display: block;
+  position: absolute;
+  right: 0.3rem;
+  background-color: var(--white);
+  border: none;
+  top: 10px;
+}
+
+.hamburger:hover {
+  background-color: var(--light-grey);
+  border: solid 1px var(--grey);
+}
+
+.navigation_menu .ul_container {
+  position: absolute;
+  top: 75px;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-color: var(--white);
+  border-top: 1px solid var(--orange);
+  display: none;
+  padding-top: 2rem;
+  padding-left: 3rem;
+}
+
+.navigation_menu ul {
+  flex-direction: column;
+
+  width: 100%;
+}
+
+.navigation_menu li {
+  text-align: left;
+  margin: 0;
+  list-style-type: none;
+  padding: 1rem 0;
+  height: 1.5rem;
+}
+
+.navigation_menu li,
+.navigation_menu li a {
+  color: var(--grey);
+  width: 100%;
+}
+.navigation_menu li a,
+.navigation_menu li strong {
+  padding-bottom: 4px;
+  font-size: var(--fs-xl);
+}
+
+.navigation_menu li a:hover {
+  color: var(--orange);
+  border-bottom: 3px solid var(--orange);
+  cursor: pointer;
+}
+
+.navigation_menu.expanded .ul_container {
+  display: block;
+}
+
+.navigation_menu.expanded ul li {
+  padding: 2rem 0;
+}
+
+.svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .navigation_menu ul li div,
+  .navigation_menu li div span {
+    padding: 0;
+  }
+}
+
+/* To show main menu fully */
+@media (min-width: 670px) {
+  .navigation_menu ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    position: relative;
+    top: unset;
+    left: unset;
+    height: auto;
+    border-top: none;
+    background-color: var(--white-bg-color);
+  }
+
+  .navigation_menu ul li:last-child {
+    padding-left: 2rem;
+  }
+  .navigation_menu li {
+    list-style-type: none;
+    margin: 0 1rem;
+    width: unset;
+    padding: 0.5rem 0 0 0;
+    height: unset;
+  }
+  .navigation_menu li a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+  }
+
+  .navigation_menu li strong,
+  .navigation_menu li span a {
+    padding-top: 0.25rem;
+  }
+
+  .hamburger {
+    border: 0;
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: #283b8b;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    display: none;
+  }
+  .hamburger:hover {
+    background-color: #2642af;
+  }
+}

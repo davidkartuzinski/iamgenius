@@ -1,0 +1,204 @@
+/* // X-Small devices (portrait phones, less than 576px)
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... } */
+
+/* // https://louisem.com/445350/white-hex-codes#green */
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body,
+#__next {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+:root {
+  --white: hsla(45, 29%, 97%, 1); /* #faf9f6 */
+  --grey: hsla(0, 0%, 20%, 1); /* #333333 */
+  --orange: hsla(5, 100%, 34%, 1) /* #ad0e00 */;
+  --light-grey: hsla(0, 0%, 20%, 0.3) /*#555555*/;
+}
+
+/* https://www.fluid-type-scale.com/ and  https://blog.logrocket.com/fluid-vs-responsive-typography-css-clamp/ */
+/* Fluid font size variables, for browsers that support clamp */
+@supports (font-size: clamp(1rem, 1vw, 1rem)) {
+  :root {
+    --fs-sm: clamp(1.054rem, -0.007vw + 1.056rem, 1.05rem);
+    --fs-base: clamp(1.125rem, 0.313vw + 1.063rem, 1.313rem);
+    --fs-md: clamp(1.2rem, 0.734vw + 1.054rem, 1.641rem);
+    --fs-lg: clamp(1.281rem, 1.283vw + 1.024rem, 2.051rem);
+    --fs-xl: clamp(1.367rem, 1.995vw + 0.968rem, 2.563rem);
+    --fs-quote: clamp(1.367rem, 1.995vw + 0.968rem, 2.363rem);
+  }
+}
+/* Fallback variables for browsers that don't support clamp */
+@supports not (font-size: clamp(1rem, 1vw, 1rem)) {
+  :root {
+    --fs-sm: 1.054rem;
+    --fs-base: 1.125rem;
+    --fs-md: 1.2rem;
+    --fs-lg: 1.281rem;
+    --fs-xl: 1.367rem;
+  }
+  @media screen and (min-width: 1280px) {
+    :root {
+      --fs-sm: 1.05rem;
+      --fs-base: 1.313rem;
+      --fs-md: 1.641rem;
+      --fs-lg: 2.051rem;
+      --fs-xl: 2.563rem;
+    }
+  }
+}
+
+/* https://github.com/vercel/next.js/issues/44295#issuecomment-1588648799 */
+html {
+  --scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
+}
+
+body {
+  font-family: var(--font-frank_ruhl_libre), serif;
+  margin: 0;
+  font-size: var(--fs-base);
+  /* https://css-typography-line-height.netlify.app/ Using ex and em */
+  line-height: calc(1em + 0.5ex);
+  background-color: var(--white);
+  color: var(--grey);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family:
+    var(--font-tempo_standard),
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
+}
+
+h1 {
+  font-size: var(--fs-xl);
+  /* https://css-typography-line-height.netlify.app/ Josh Comeau */
+  line-height: calc(1em + 0.5rem);
+}
+h2 {
+  font-size: var(--fs-lg);
+  line-height: calc(1em + 0.5rem);
+}
+h3,
+h4,
+h5,
+h6 {
+  font-size: var(--fs-md);
+}
+
+a {
+  text-decoration: none;
+}
+p {
+  margin-bottom: 1.5rem;
+}
+
+/* https://css-tricks.com/almanac/properties/l/list-style/*/
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* https://gist.github.com/ffoodd/000b59f431e3e64e4ce1a24d5bb36034 */
+
+.sr_only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important; /* 1 */
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important; /* 2 */
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important; /* 3 */
+}
+.sr_only_focusable:focus,
+.sr_only_focusable:active {
+  clip: auto !important;
+  -webkit-clip-path: none !important;
+  clip-path: none !important;
+  height: auto !important;
+  margin: auto !important;
+  overflow: visible !important;
+  width: auto !important;
+  white-space: normal !important;
+}
