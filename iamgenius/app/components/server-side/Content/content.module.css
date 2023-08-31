@@ -1,8 +1,8 @@
 .content {
-  padding: 2rem 0.75rem;
+  padding: 2rem 1rem;
   background-color: var(--white-bg-color);
   color: var(--grey-font-color);
-  max-width: 620px;
+  max-width: 640px;
   align-self: center;
 }
 

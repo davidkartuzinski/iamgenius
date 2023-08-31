@@ -3,7 +3,7 @@
 
   padding: 1.5rem 0 1rem;
   background-color: var(--white);
-  border-top: solid 10px var(--orange);
+  border-top: solid 8px var(--orange);
 }
 
 .navigation {
@@ -14,7 +14,7 @@
   height: 60px;
   width: 100%;
   max-width: 1220px;
-  padding: 1.5rem 0.75rem 2rem;
+  padding: 1.5rem 1rem 2rem;
   font-family: var(--font-tempo_standard);
 }
 

@@ -1,12 +1,12 @@
 .blockquote {
   font-family: var(--font-tempo_heavy);
   color: var(--grey);
-  padding: 1.2rem 30px 1.2rem 75px;
+  padding: 1rem 32px 1rem 72px;
   border-left: 10px solid var(--orange);
 
   position: relative;
   font-size: var(--fs-quote);
-  margin: 1.5rem 0;
+  margin: 1.75rem 0;
   line-height: calc(1em + 0.5ex);
 }
 
@@ -26,6 +26,6 @@
 
 .blockquote span {
   display: block;
-  margin-top: 0.5em;
+  /* margin-top: 0.5em; */
   font-size: var(--fs-md);
 }

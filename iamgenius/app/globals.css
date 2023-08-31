@@ -76,32 +76,47 @@ h6 {
 
 /* https://www.fluid-type-scale.com/ and  https://blog.logrocket.com/fluid-vs-responsive-typography-css-clamp/ */
 /* Fluid font size variables, for browsers that support clamp */
-@supports (font-size: clamp(1rem, 1vw, 1rem)) {
-  :root {
-    --fs-sm: clamp(1.054rem, -0.007vw + 1.056rem, 1.05rem);
-    --fs-base: clamp(1.125rem, 0.313vw + 1.063rem, 1.313rem);
-    --fs-md: clamp(1.2rem, 0.734vw + 1.054rem, 1.641rem);
-    --fs-lg: clamp(1.281rem, 1.283vw + 1.024rem, 2.051rem);
-    --fs-xl: clamp(1.367rem, 1.995vw + 0.968rem, 2.563rem);
-    --fs-quote: clamp(1.367rem, 1.995vw + 0.968rem, 2.363rem);
-  }
+
+/**** FOR MINI SCREENS 320px -359px ****/
+:root {
+  --fs-sm: 10px;
+  --fs-base: 18px;
+  --fs-md: 22px;
+  --fs-lg: 26px;
+  --fs-xl: 28px;
+  --fs-quote: 22px;
 }
-/* Fallback variables for browsers that don't support clamp */
-@supports not (font-size: clamp(1rem, 1vw, 1rem)) {
-  :root {
-    --fs-sm: 1.054rem;
-    --fs-base: 1.125rem;
-    --fs-md: 1.2rem;
-    --fs-lg: 1.281rem;
-    --fs-xl: 1.367rem;
-  }
-  @media screen and (min-width: 1280px) {
+
+@media (min-width: 360px) {
+  @supports (font-size: clamp(1rem, 1vw, 1rem)) {
     :root {
-      --fs-sm: 1.05rem;
-      --fs-base: 1.313rem;
-      --fs-md: 1.641rem;
-      --fs-lg: 2.051rem;
-      --fs-xl: 2.563rem;
+      --fs-sm: clamp(0.75rem, 0.4286rem + 1.4286vw, 1rem); /* 12px - 16px*/
+      --fs-base: clamp(1.25rem, 0.9286rem + 1.4286vw, 1.5rem); /* 20px - 24px */
+      --fs-md: clamp(1.5rem, 0.8571rem + 2.8571vw, 2rem); /* 24px - 32px */
+      --fs-lg: clamp(1.75rem, 1.1071rem + 2.8571vw, 2.25rem); /* 28px - 36px */
+      --fs-xl: clamp(2rem, 1.3571rem + 2.8571vw, 2.5rem); /* 32px - 40px */
+      --fs-quote: clamp(1.5rem, 0.8571rem + 2.8571vw, 2rem); /* 24px - 32px */
+    }
+  }
+  /* Fallback variables for browsers that don't support clamp */
+  @supports not (font-size: clamp(1rem, 1vw, 1rem)) {
+    :root {
+      --fs-sm: 0.75rem; /* 12px */
+      --fs-base: 1.25rem; /* 20px */
+      --fs-md: 1.5rem; /* 24px */
+      --fs-lg: 1.75rem; /* 28rem */
+      --fs-xl: 2rem; /* 32rem */
+      --fs-quote: 1.5rem; /* 24px */
+    }
+    @media screen and (min-width: 1280px) {
+      :root {
+        --fs-sm: 1rem; /* 16rem */
+        --fs-base: 1.5rem; /* 24px */
+        --fs-md: 2rem; /* 32rem */
+        --fs-lg: 2.25rem; /* 36rem */
+        --fs-xl: 2.5rem; /* 40rem */
+        --fs-quote: 2rem; /* 32rem */
+      }
     }
   }
 }
@@ -116,10 +131,15 @@ body {
   font-family: var(--font-frank_ruhl_libre), serif;
   margin: 0;
   font-size: var(--fs-base);
-  /* https://css-typography-line-height.netlify.app/ Using ex and em */
-  line-height: calc(1em + 0.5ex);
+  line-height: 22px;
   background-color: var(--white);
   color: var(--grey);
+}
+
+@media (min-width: 360px) {
+  body {
+    line-height: clamp(1.5rem, 2.856vw + 0.857rem, 2rem); /* 24px - 32px */
+  }
 }
 
 h1,
@@ -152,18 +172,23 @@ h2 {
   font-size: var(--fs-lg);
   line-height: calc(1em + 0.5rem);
 }
-h3,
+h3 {
+  font-size: var(--fs-md);
+  line-height: calc(1em + 0.5rem);
+}
+
 h4,
 h5,
 h6 {
-  font-size: var(--fs-md);
+  font-size: var(--fs-base);
+  line-height: clamp(1.5rem, 2.856vw + 0.857rem, 2rem); /* 24px - 32px */
 }
 
 a {
   text-decoration: none;
 }
 p {
-  margin-bottom: 1.5rem;
+  margin-bottom: calc(1em + 0.5rem);
 }
 
 /* https://css-tricks.com/almanac/properties/l/list-style/*/
