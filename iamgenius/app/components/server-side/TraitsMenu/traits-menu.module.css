@@ -18,12 +18,10 @@
 .traits_menu_nav {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 92%;
   flex-wrap: wrap;
-  height: 90px;
+  height: 96px;
   margin-bottom: 2rem;
-
-  max-width: 500px;
   align-self: center;
 }
 
@@ -59,34 +57,20 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .traits_menu_nav {
-    height: 130px;
-    padding: 0.5rem 3rem;
+    height: 104px;
+    max-width: 504px;
   }
   .traits_menu_link {
-    width: 30%;
+    width: 33%;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .traits_menu_nav {
-    height: 135px;
-    padding: 0.5rem 3rem;
-  }
-  .traits_menu_link {
-    width: 20%;
-  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .traits_menu_nav {
-    height: 135px;
-    padding: 0.5rem 3rem;
-  }
-  .traits_menu_link {
-    width: 14%;
-  }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */

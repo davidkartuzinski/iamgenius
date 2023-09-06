@@ -12,6 +12,8 @@ import styles from './header.module.css';
 export const Header = async ({ lng }) => {
   const { t } = await useTranslation(lng, 'header');
 
+  const links = t('links', { returnObjects: true });
+
   return (
     <header className={styles.header}>
       <nav className={styles.navigation}>
@@ -19,30 +21,18 @@ export const Header = async ({ lng }) => {
           <Logo />
         </Link>
         <div>
-          <Hamburger>
-            <li>
-              <ActiveLink href={`/${lng}`}>{t('home')}</ActiveLink>
-            </li>
-            <li>
-              <ActiveLink href={`/${lng}/about`}>{t('about')}</ActiveLink>
-            </li>
-            <li>
-              <ActiveLink href={`/${lng}/contact`}>{t('contact')}</ActiveLink>
-            </li>
-            <li>
+          <Hamburger lng={lng} links={links}>
+            <div className={styles.switcher}>
               <LanguageSwitcher lng={lng} />
-            </li>
+            </div>
           </Hamburger>
+
           <ul className={styles.main_menu}>
-            <li>
-              <ActiveLink href={`/${lng}`}>{t('home')}</ActiveLink>
-            </li>
-            <li>
-              <ActiveLink href={`/${lng}/about`}>{t('about')}</ActiveLink>
-            </li>
-            <li>
-              <ActiveLink href={`/${lng}/contact`}>{t('contact')}</ActiveLink>
-            </li>
+            {links.map((item) => (
+              <li key={item.id}>
+                <ActiveLink href={lng + item.url}>{item.name}</ActiveLink>
+              </li>
+            ))}
           </ul>
         </div>
         <LanguageSwitcher lng={lng} />

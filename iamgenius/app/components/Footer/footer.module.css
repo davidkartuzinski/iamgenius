@@ -20,8 +20,8 @@
 }
 
 .footer > div {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -31,7 +31,7 @@
 
 .footer ul {
   align-self: center;
-  padding-top: 6px;
+  padding-top: 8px;
   width: 40%;
 }
 
@@ -42,7 +42,7 @@
 .footer_column {
   display: flex;
   justify-content: space-between;
-  max-width: 500px;
+  max-width: 640px;
   margin: 0 auto;
 }
 
@@ -59,14 +59,13 @@
 }
 
 .footer_privacy_links {
-  padding-right: 5%;
+  padding-right: 8px;
 }
 
 .privacy_box {
-  font-size: 86%;
+  font-size: var(--fs-sm);
   text-align: left;
-  padding: 1rem 2rem;
-  max-width: 660px;
+
   display: flex;
   flex-direction: column;
 }

@@ -1,6 +1,7 @@
 .traits {
-  margin-bottom: 1.5rem;
-  width: 90%;
+  /* margin-bottom: 1.5rem; */
+  margin-bottom: calc(1em + 0.5rem);
+  width: 92%;
 }
 
 .traits p {
@@ -8,7 +9,7 @@
 }
 .traits h3 {
   font-family: var(--font-frank_ruhl_libre), serif;
-
+  line-height: clamp(1.5rem, 2.856vw + 0.857rem, 2rem); /* 24px - 32px */
   display: inline;
 }
 
@@ -26,8 +27,8 @@
 /* https://almanac.httparchive.org/en/2020/accessibility#zooming-and-scaling */
 
 .anchor_link {
-  padding-left: 30px;
-  margin-left: -30px;
+  padding-left: 32px;
+  margin-left: -32px;
 }
 
 .anchor_link:hover::before,

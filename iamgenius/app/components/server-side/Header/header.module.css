@@ -3,7 +3,7 @@
 
   padding: 1.5rem 0 1rem;
   background-color: var(--white);
-  border-top: solid 10px var(--orange);
+  border-top: solid 8px var(--orange);
 }
 
 .navigation {
@@ -14,7 +14,7 @@
   height: 60px;
   width: 100%;
   max-width: 1220px;
-  padding: 1.5rem 0.75rem 2rem;
+  padding: 1.5rem 1rem 2rem;
   font-family: var(--font-tempo_standard);
 }
 
@@ -37,6 +37,23 @@
 
 .navigation > div:last-of-type {
   display: none;
+}
+
+.switcher {
+  max-width: 5rem;
+  font-size: var(--fs-md);
+}
+
+.switcher a,
+.switcher span {
+  max-width: 5rem;
+  color: var(--grey);
+}
+
+.switcher a:hover,
+.switcher a:active {
+  color: var(--orange);
+  border-bottom: solid 2px var(--orange);
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -63,7 +80,7 @@
 }
 
 /* To show main menu fully */
-@media (min-width: 670px) {
+@media (min-width: 754px) {
   .navigation > div:last-of-type {
     display: flex;
   }
