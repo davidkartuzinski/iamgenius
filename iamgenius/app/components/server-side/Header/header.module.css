@@ -41,6 +41,19 @@
 
 .switcher {
   max-width: 5rem;
+  font-size: var(--fs-md);
+}
+
+.switcher a,
+.switcher span {
+  max-width: 5rem;
+  color: var(--grey);
+}
+
+.switcher a:hover,
+.switcher a:active {
+  color: var(--orange);
+  border-bottom: solid 2px var(--orange);
 }
 
 /* // Small devices (landscape phones, 576px and up) */

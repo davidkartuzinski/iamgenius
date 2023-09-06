@@ -38,10 +38,8 @@ const Hamburger = ({ children, lng, links }) => {
           <Popover className={styles.popover}>
             <Menu className={styles.hamburger_menu}>
               {links.map((item) => (
-                <Item className={styles.hamburger_menu_item}>
-                  <ActiveLink key={item.id} href={lng + item.url}>
-                    {item.name}
-                  </ActiveLink>
+                <Item key={item.id} className={styles.hamburger_menu_item}>
+                  <ActiveLink href={lng + item.url}>{item.name}</ActiveLink>
                 </Item>
               ))}
             </Menu>

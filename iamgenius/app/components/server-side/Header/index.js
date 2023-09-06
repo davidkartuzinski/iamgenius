@@ -10,9 +10,7 @@ import { LanguageSwitcher } from '../LanguageSwitcher';
 import styles from './header.module.css';
 
 export const Header = async ({ lng }) => {
-  const { t, i18n, ready } = await useTranslation(lng, 'header');
-
-  // if (!ready) return 'loading translations...';
+  const { t } = await useTranslation(lng, 'header');
 
   const links = t('links', { returnObjects: true });
 
@@ -31,10 +29,8 @@ export const Header = async ({ lng }) => {
 
           <ul className={styles.main_menu}>
             {links.map((item) => (
-              <li>
-                <ActiveLink key={item.id} href={lng + item.url}>
-                  {item.name}
-                </ActiveLink>
+              <li key={item.id}>
+                <ActiveLink href={lng + item.url}>{item.name}</ActiveLink>
               </li>
             ))}
           </ul>
