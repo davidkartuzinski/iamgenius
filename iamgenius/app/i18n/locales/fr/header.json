@@ -1,5 +1,7 @@
 {
-  "home": "Accueil",
-  "about": "Qui sommes-nous ?",
-  "contact": "Contactez-nous"
+  "links": [
+    { "id": "1", "name": "Accueil", "url": "/" },
+    { "id": "2", "name": "Qui sommes-nous", "url": "/qui-sommes-nous/" },
+    { "id": "3", "name": "Contactez-nous", "url": "/contactez-nous/" }
+  ]
 }

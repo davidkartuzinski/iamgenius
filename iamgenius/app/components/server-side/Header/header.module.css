@@ -39,6 +39,10 @@
   display: none;
 }
 
+.switcher {
+  max-width: 5rem;
+}
+
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .header {
@@ -63,7 +67,7 @@
 }
 
 /* To show main menu fully */
-@media (min-width: 670px) {
+@media (min-width: 754px) {
   .navigation > div:last-of-type {
     display: flex;
   }

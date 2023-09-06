@@ -19,3 +19,5 @@ I have had to learn how to do various things for this app. The following people 
 5. To fine-tune the font and the line-height, I turned to two tools. For creating [clamp based font-size](https://clamp.font-size.app/). Calculating line-height was done with this excellent [line-height calculator tool](https://fluidtypography.com/#app-get-started). I used it for the automatic calc of line-height between 360px viewport and 640px largest container width.
 
 6. Tool to ensure colors were accessible: [Accessible Color Generator by Erik Kennedy](https://www.learnui.design/tools/accessible-color-generator.html)
+
+7. I used a few of the ready-made components from [React Aria](https://react-spectrum.adobe.com/react-aria/index.html). This helped with accessibility. For example, the hamburger menu on the website is using the [Menu Component](https://react-spectrum.adobe.com/react-aria/Menu.html) underneath it all.
