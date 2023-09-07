@@ -190,6 +190,7 @@ h6 {
 
 a {
   text-decoration: none;
+  color: var(--orange);
 }
 p {
   margin-bottom: 1.5rem;
