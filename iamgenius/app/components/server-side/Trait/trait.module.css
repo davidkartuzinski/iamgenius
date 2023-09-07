@@ -1,7 +1,7 @@
 .traits {
-  /* margin-bottom: 1.5rem; */
-  margin-bottom: calc(1em + 0.5rem);
-  width: 92%;
+  margin-bottom: 2rem;
+  width: 100%;
+  padding: 0 1.5rem;
 }
 
 .traits p {
@@ -21,6 +21,7 @@
 .traits h3:hover,
 .traits a:hover {
   text-decoration: underline;
+  color: var(--orange);
 }
 
 /* so "inspired" by this website */
@@ -34,7 +35,7 @@
 .anchor_link:hover::before,
 .anchor_link:focus::before {
   content: url('~/public/link/link.svg');
-  left: -25px;
+  left: -20px;
   position: relative;
   float: left;
   width: 0;
