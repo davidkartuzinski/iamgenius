@@ -3,12 +3,12 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  max-width: 166px;
+  /* max-width: 166px; */
 }
 
 .social_icons {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.7rem;
+  height: 1.7rem;
 }
 
 .social_links {

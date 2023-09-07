@@ -167,10 +167,14 @@ h1 {
   font-size: var(--fs-xl);
   /* https://css-typography-line-height.netlify.app/ Josh Comeau */
   line-height: calc(1em + 0.5rem);
+  margin-bottom: 2rem;
+  letter-spacing: 0.03rem;
 }
 h2 {
   font-size: var(--fs-lg);
   line-height: calc(1em + 0.5rem);
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.03rem;
 }
 h3 {
   font-size: var(--fs-md);
@@ -188,9 +192,12 @@ a {
   text-decoration: none;
 }
 p {
-  margin-bottom: calc(1em + 0.5rem);
+  margin-bottom: 1.5rem;
 }
 
+h1 + p {
+  margin-bottom: 3rem;
+}
 /* https://css-tricks.com/almanac/properties/l/list-style/*/
 ul {
   padding: 0;

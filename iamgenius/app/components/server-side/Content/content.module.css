@@ -1,5 +1,5 @@
 .content {
-  padding: 2rem 1rem;
+  padding: 0 1rem;
   background-color: var(--white-bg-color);
   color: var(--grey-font-color);
   max-width: 640px;
@@ -10,4 +10,11 @@
   margin: auto;
   display: flex;
   justify-content: space-between;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .content {
+    padding: 0 2rem;
+  }
 }

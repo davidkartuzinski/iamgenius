@@ -1,7 +1,7 @@
 .hamburger {
   display: block;
   position: absolute;
-  right: 0.25rem;
+  right: 0;
   background-color: var(--white);
   border-bottom: solid 1px var(--white);
   top: 10px;
@@ -175,7 +175,7 @@
 }
 
 /* To show main menu fully */
-@media (min-width: 754px) {
+@media (min-width: 768px) {
   .hamburger {
     display: none;
   }
