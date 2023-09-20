@@ -1,0 +1,30 @@
+{
+  "header.links": [
+    { "id": "1", "name": "Home", "url": "/" },
+    { "id": "2", "name": "About", "url": "/about/" },
+    { "id": "3", "name": "Contact", "url": "/contact/" }
+  ],
+
+  "traitsmenu.aria.message": "Go to trait",
+
+  "socials.instagram": "Instagram Account",
+  "socials.twitter": "Twitter / X Account",
+  "socials.github": "GitHub Account",
+
+  "footer.languages": "Languages",
+  "footer.follow-us": "Follow us",
+  "footer.legal": "Legal",
+
+  "footer.terms": "Terms and Conditions",
+  "footer.privacy": "Privacy Policy",
+
+  "footer.articleCopyright-1": "Copyright © 2023, I Am Genius. All rights reserved.",
+  "footer.articleCopyright-2": "Copyright © 1979, originally National Enquirer, Inc., Copyright © 2023, VVIP Ventures, LLC. All Rights Reserved.",
+
+  "home.link": "/",
+  "contact.link": "/contact/",
+  "about.link": "/about/",
+
+  "contact.title": "Contact Us",
+  "about.title": "About Genius"
+}

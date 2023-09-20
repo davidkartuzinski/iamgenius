@@ -1,7 +1,0 @@
-{
-  "links": [
-    { "id": "1", "name": "Inicio", "url": "/" },
-    { "id": "2", "name": "Quiénes somos", "url": "/quienes-somos/" },
-    { "id": "3", "name": "Contáctenos", "url": "/contactenos/" }
-  ]
-}

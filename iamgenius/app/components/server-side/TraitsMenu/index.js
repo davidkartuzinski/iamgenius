@@ -1,15 +1,15 @@
+'use client';
 import styles from './traits-menu.module.css';
+import { useParams } from 'next/navigation';
+
 import { slugify } from '@/app/lib/utils';
 import Link from 'next/link';
-import { useTranslation } from '../../../i18n';
-import { Trans } from 'react-i18next/TransWithoutContext';
-import { languages } from '../../../i18n/settings';
 
-const TraitsMenuLink = ({ name, number }) => {
+const TraitsMenuLink = ({ name }) => {
   return (
     <Link
       href={`#${slugify(name)}`}
-      aria-label={`Go to trait ${number} ${slugify(name)}`}
+      aria-label={`Go to trait ${slugify(name)}`}
       className={styles.traits_menu_link}
     >
       {name}
@@ -17,14 +17,67 @@ const TraitsMenuLink = ({ name, number }) => {
   );
 };
 
-export const TraitsMenu = async ({ lng }) => {
-  const { t } = await useTranslation(lng);
-
+const TraitsMenuEN = () => {
   return (
     <nav className={styles.traits_menu_nav}>
-      {t('traits-menu', { returnObjects: true }).map(({ number, name }) => (
-        <TraitsMenuLink key={number} name={name} number={number} />
-      ))}
+      <TraitsMenuLink name='Drive' />
+      <TraitsMenuLink name='Courage' />
+      <TraitsMenuLink name='Knowledge' />
+      <TraitsMenuLink name='Optimism' />
+      <TraitsMenuLink name='Enterprise' />
+      <TraitsMenuLink name='Persuasion' />
+      <TraitsMenuLink name='Individualism' />
+      <TraitsMenuLink name='Idealism' />
+      <TraitsMenuLink name='Imagination' />
     </nav>
   );
+};
+
+const TraitsMenuFR = () => {
+  return (
+    <nav className={styles.traits_menu_nav}>
+      <TraitsMenuLink name='Lecteur' />
+      <TraitsMenuLink name='Courage' />
+      <TraitsMenuLink name='Connaissance' />
+      <TraitsMenuLink name='Optimisme' />
+      <TraitsMenuLink name='Enterprise' />
+      <TraitsMenuLink name='Persuasion' />
+      <TraitsMenuLink name='Individualisme' />
+      <TraitsMenuLink name='Idéalisme' />
+      <TraitsMenuLink name='Imagination' />
+    </nav>
+  );
+};
+
+const TraitsMenuES = () => {
+  return (
+    <nav className={styles.traits_menu_nav}>
+      <TraitsMenuLink name='Conducir' />
+      <TraitsMenuLink name='Coraje' />
+      <TraitsMenuLink name='Conocimiento' />
+      <TraitsMenuLink name='Optimismo' />
+      <TraitsMenuLink name='Empresa' />
+      <TraitsMenuLink name='Persuasión' />
+      <TraitsMenuLink name='Individualismo' />
+      <TraitsMenuLink name='Idealismo' />
+      <TraitsMenuLink name='Imaginación' />
+    </nav>
+  );
+};
+
+export const TraitsMenu = () => {
+  const { lang } = useParams();
+  const TraitsMenuLanguage = () => {
+    if (lang === 'en') {
+      return <TraitsMenuEN />;
+    } else if (lang === 'es') {
+      return <TraitsMenuES />;
+    } else if (lang === 'fr') {
+      return <TraitsMenuFR />;
+    } else {
+      return <TraitsMenuEN />;
+    }
+  };
+
+  return <>{TraitsMenuLanguage()}</>;
 };
