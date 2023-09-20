@@ -13,12 +13,19 @@
   height: 60px;
   width: 100%;
   max-width: 1220px;
-
+  justify-content: space-between;
   font-family: var(--font-tempo_standard);
+}
+
+.left_content,
+.right_content {
+  /* Forces side columns to stay same width */
+  flex: 0 0 100px;
 }
 
 .logo_link > img {
   display: inline-block;
+  max-width: 100%;
 }
 
 .header ul {
@@ -28,6 +35,10 @@
 
 .main_menu {
   display: none;
+}
+
+.main_menu > li:first-of-type {
+  padding-left: 0;
 }
 
 .navigation > div:last-of-type {

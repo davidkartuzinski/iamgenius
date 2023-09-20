@@ -12,10 +12,12 @@ export const Header = async ({ lang }) => {
   return (
     <header className={styles.header}>
       <nav className={styles.navigation}>
-        <Link href={`/${lang}`} className={styles.logo_link}>
-          <Logo />
-        </Link>
-        <div>
+        <div className={styles.left_content}>
+          <Link href={`/${lang}`} className={styles.logo_link}>
+            <Logo />
+          </Link>
+        </div>
+        <div className={styles.center_content}>
           <Hamburger lng={lang}>
             <div className={styles.switcher}>
               <LanguageSwitcher lng={lang} />
@@ -26,7 +28,9 @@ export const Header = async ({ lang }) => {
             <MainMenuLinks />
           </ul>
         </div>
-        <LanguageSwitcher lang={lang} />
+        <div className={styles.right_content}>
+          <LanguageSwitcher lang={lang} />
+        </div>
       </nav>
     </header>
   );
