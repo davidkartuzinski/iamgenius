@@ -1,3 +1,7 @@
 {
+  "plugins": ["formatjs"],
+  "rules": {
+    "formatjs/no-offset": "error"
+  },
   "extends": ["next/babel", "next/core-web-vitals", "prettier"]
 }

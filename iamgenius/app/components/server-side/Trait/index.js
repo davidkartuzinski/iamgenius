@@ -14,7 +14,6 @@ function Trait({ number, name, children }) {
           aria-label={`Go to trait ${number} ${slugify(name)}`}
           className={styles.anchor_link}
         >
-          {' '}
           {number}. {name}.
         </Link>
       </h3>{' '}

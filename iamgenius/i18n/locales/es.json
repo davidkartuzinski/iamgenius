@@ -1,0 +1,70 @@
+{
+  "header.links": [
+    { "id": "1", "name": "Inicio", "url": "/" },
+    { "id": "2", "name": "Quiénes somos", "url": "/quienes-somos/" },
+    { "id": "3", "name": "Contáctenos", "url": "/contactenos/" }
+  ],
+
+  "traitsmenu.aria.message": "Ir a rasgo",
+
+  "socials.instagram": "Cuenta de Instagram",
+  "socials.twitter": "Cuenta Twitter / X",
+  "socials.github": "Cuenta GitHub",
+
+  "footer.languages": "Idoimas",
+  "footer.follow-us": "Síganos",
+  "footer.legal": "Legal",
+
+  "footer.terms": "Términos y condiciones",
+  "footer.privacy": "Política de privacidad",
+
+  "home.traits-menu": [
+    {
+      "number": 1,
+      "name": "Conducir"
+    },
+    {
+      "number": 2,
+      "name": "Coraje"
+    },
+    {
+      "number": 3,
+      "name": "Conocimiento"
+    },
+
+    {
+      "number": 4,
+      "name": "Optimismo"
+    },
+    {
+      "number": 5,
+      "name": "Empresa"
+    },
+    {
+      "number": 6,
+      "name": "Persuasión"
+    },
+
+    {
+      "number": 7,
+      "name": "Individualismo"
+    },
+    {
+      "number": 8,
+      "name": "Idealismo"
+    },
+    {
+      "number": 9,
+      "name": "Imaginación"
+    }
+  ],
+  "footer.articleCopyright-1": "Derechos de autor © 2023, I Am Genius. Reservados todos los derechos.",
+  "footer.articleCopyright-2": "Derechos de autor © 1979, originalmente National Enquirer, Inc., Derechos de autor © 2023, VVIP Ventures, LLC. Reservados todos los derechos.",
+
+  "home.link": "/",
+  "contact.link": "/contactenos/",
+  "about.link": "/quienes-somos/",
+
+  "contact.title": "Contáctenos",
+  "about.title": "Acerca de genio"
+}
