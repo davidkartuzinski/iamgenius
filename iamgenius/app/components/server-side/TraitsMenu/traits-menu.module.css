@@ -54,6 +54,7 @@
 .traits_menu_link:hover,
 .traits_menu_link:active {
   color: var(--orange);
+  text-decoration: underline 2px;
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -70,7 +71,7 @@
 @media (min-width: 768px) {
   .traits_menu_nav {
     height: 104px;
-    max-width: 640px;
+    max-width: 760px;
     padding: 0 2rem;
   }
   .traits_menu_link {
