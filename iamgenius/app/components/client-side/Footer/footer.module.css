@@ -16,6 +16,7 @@
     Droid Sans,
     Helvetica Neue,
     sans-serif;
+  padding: 0 1rem;
 }
 
 .footer a:hover {
@@ -97,9 +98,13 @@
 
 /* To show main menu fully */
 @media (min-width: 670px) {
-  .footer div {
-    padding: 0 1rem;
+  .footer {
+    padding: 0;
   }
+  .footer > div {
+    padding: 0 2rem;
+  }
+
   .footer ul span,
   .footer ul div {
     padding-left: 0;
