@@ -1,0 +1,183 @@
+/* CONTENT STYLES */
+
+.wrapper {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper div {
+  flex-direction: column;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .wrapper {
+    padding: 0;
+  }
+}
+
+/* HEADER STYLES */
+
+.header {
+  margin-bottom: 4rem;
+  padding: 1.5rem 1rem 0;
+  background-color: var(--white);
+  border-top: solid 8px var(--orange);
+}
+
+.navigation404 {
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  max-width: 1220px;
+  justify-content: space-between;
+  font-family: var(--font-tempo_standard);
+}
+
+.left_content,
+.right_content {
+  /* Forces side columns to stay same width */
+  flex: 0 0 100px;
+}
+
+.logo_link > img {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.header ul {
+  width: 70%;
+  max-width: 200px;
+}
+
+.main_menu {
+  display: flex;
+}
+.main_menu li {
+  padding-left: 2rem;
+}
+
+.main_menu > li:first-of-type {
+  padding-left: 0;
+}
+
+.navigation404 > div:last-of-type {
+  /* display: none; */
+}
+
+.switcher {
+  max-width: 5rem;
+  font-size: var(--fs-md);
+}
+
+.switcher a,
+.switcher span {
+  max-width: 5rem;
+  color: var(--grey);
+}
+
+.switcher a:hover,
+.switcher a:active {
+  color: var(--orange);
+  border-bottom: solid 2px var(--orange);
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .header {
+    width: 100%;
+    padding: 1.5rem 2rem 0;
+  }
+
+  .header .main_menu a:hover,
+  .header span a:hover {
+    color: var(--orange);
+    border-bottom: 2px solid var(--orange);
+  }
+
+  .navigation404 {
+    justify-content: space-between;
+  }
+}
+
+/* To show main menu fully */
+@media (min-width: 768px) {
+  .navigation404 > div:last-of-type {
+    display: flex;
+  }
+  .header ul {
+    width: unset;
+    max-width: none;
+  }
+  .main_menu {
+    display: flex;
+    color: var(--grey);
+  }
+
+  .main_menu li {
+    padding-left: 3rem;
+  }
+
+  .main_menu a {
+    color: var(--grey);
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .navigation404 {
+    max-width: 1040px;
+  }
+}
+
+.goback_arrow img {
+  margin-top: 100px;
+}
+
+/* FOOTER STYLES */
+
+.footer {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  background-color: var(--white);
+  color: var(--grey);
+  font-family:
+    var(--font-tempo_standard),
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
+  padding: 0 1rem;
+}
+
+.horizontal_rule {
+  margin: 0 0 1.5rem 0;
+  color: var(--orange);
+}
+
+@media (min-width: 576px) {
+  .footer {
+    padding: 0 2rem;
+  }
+}
+
+/* To show main menu fully */
+@media (min-width: 670px) {
+  .footer {
+    padding: 0;
+  }
+  .footer > div {
+    padding: 0 2rem;
+  }
+}
