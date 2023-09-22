@@ -4,6 +4,7 @@
   color: var(--grey-font-color);
   max-width: 760px;
   align-self: center;
+  min-height: 60vh;
 }
 
 .content_inner {
