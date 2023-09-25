@@ -29,7 +29,7 @@ Here are the 24 characteristics Dr. Barrios lists which enable geniuses to come 
 13. **Outgoingness.** "I've found geniuses able to make friends easily and be easy on their friends. Be a 'booster,' not someone who puts others down. That attitude will win you many valuable friends."
 14. **Ability to communicate.** "Geniuses are able to effectively get their ideas across to others. Take every opportunity to explain your ideas to others."
 15. **Patience.** "Be patient with others most of the time, but always be impatient with yourself. Expect far more of yourself than of others."
-16. **Perception.** "Geniuses have their mental radar working full time. Think more of others' needs and wants that you do of your own."
+16. **Perception.** "Geniuses have their mental radar working full time. Think more of others' needs and wants than you do of your own."
 17. **Perfectionism.** "Geniuses cannot tolerate mediocrity, particularly in themselves. Never be easily satisfied with yourself. Always strive to do better."
 18. **Sense of humor.** "Be willing to laugh at your own expense. Don't take offense when the joke is on you."
 19. **Versatility** "The more things you learn to accomplish, the more confidence you will develop. Don't shy away from new endeavors."
