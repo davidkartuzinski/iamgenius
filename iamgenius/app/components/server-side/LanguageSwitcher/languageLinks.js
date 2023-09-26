@@ -167,6 +167,18 @@ export const TranslateLinks = () => {
         'fr'
       );
       break;
+
+    // TRAITS
+    // 1. Drive
+    case 'en/drive':
+      return translateLinks('fr/energie', 'FR', 'es/energia', 'ES');
+      break;
+    case 'fr/energie':
+      return translateLinks('en/drive', 'en', 'es/energia', 'es');
+      break;
+    case 'es/energia':
+      return translateLinks('en/drive', 'en', 'fr/energie', 'fr');
+      break;
   }
 };
 
