@@ -8,7 +8,6 @@ import styles from '../[lang]/layout.module.css';
 import { Content } from '../components/server-side/Content';
 import { Footer } from '../components/client-side/Footer';
 import { Header } from '../components/server-side/Header';
-import { TraitsMenu } from '../components/server-side/TraitsMenu';
 
 const metadata = {
   title: 'I am Genius',
@@ -34,7 +33,6 @@ const Layout = ({ children, params }) => {
         // dir={dir(lang)}
       >
         <Header lang={params.lang} />
-        <TraitsMenu lng={params.lang} />
         <Content lng={params.lang}>{children}</Content>
         <Footer lng={params.lang} />
       </div>

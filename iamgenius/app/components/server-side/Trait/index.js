@@ -6,13 +6,13 @@ import TraitForm from '../../client-side/TraitForm';
 //https://levelup.gitconnected.com/accessible-anchor-links-a-key-element-of-inclusive-web-design-30e6d786fec9
 // https://amberwilson.co.uk/blog/are-your-anchor-links-accessible/
 
-function Trait({ number, name, children }) {
+function Trait({ number, name, children, language }) {
   return (
     <TraitForm>
       <div id={`${slugify(name)}`} className={styles.traits}>
-        <h3 id={`#${slugify(name)}-heading`}>
+        <h3>
           <Link
-            href={`#${slugify(name)}`}
+            href={`/${language}/${slugify(name)}`}
             aria-label={`Go to trait ${number} ${slugify(name)}`}
             className={styles.anchor_link}
           >
