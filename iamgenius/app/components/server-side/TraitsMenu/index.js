@@ -1,7 +1,10 @@
+'use client';
+
 import styles from './traits-menu.module.css';
 
 import { slugify } from '@/app/lib/utils';
 import Link from 'next/link';
+import { useParams } from 'next/navigation';
 
 const TraitsMenuLink = ({ name }) => {
   return (
@@ -63,7 +66,10 @@ const TraitsMenuES = () => {
   );
 };
 
-export const TraitsMenu = (lang) => {
+export const TraitsMenu = () => {
+  const { lang } = useParams();
+  console.log(lang);
+
   const TraitsMenuLanguage = () => {
     if (lang === 'en') {
       return <TraitsMenuEN />;
