@@ -15,7 +15,7 @@ const TraitsMenuLink = ({ name }) => {
   );
 };
 
-const TraitsMenuEN = () => {
+export const TraitsMenuEN = () => {
   return (
     <nav className={styles.traits_menu_nav}>
       <TraitsMenuLink name='Drive' />
@@ -31,7 +31,7 @@ const TraitsMenuEN = () => {
   );
 };
 
-const TraitsMenuFR = () => {
+export const TraitsMenuFR = () => {
   return (
     <nav className={styles.traits_menu_nav}>
       <TraitsMenuLink name='Lecteur' />
@@ -47,7 +47,7 @@ const TraitsMenuFR = () => {
   );
 };
 
-const TraitsMenuES = () => {
+export const TraitsMenuES = () => {
   return (
     <nav className={styles.traits_menu_nav}>
       <TraitsMenuLink name='Conducir' />
@@ -61,20 +61,4 @@ const TraitsMenuES = () => {
       <TraitsMenuLink name='Imaginación' />
     </nav>
   );
-};
-
-export const TraitsMenu = (lang) => {
-  const TraitsMenuLanguage = () => {
-    if (lang === 'en') {
-      return <TraitsMenuEN />;
-    } else if (lang === 'es') {
-      return <TraitsMenuES />;
-    } else if (lang === 'fr') {
-      return <TraitsMenuFR />;
-    } else {
-      return <TraitsMenuEN />;
-    }
-  };
-
-  return <>{TraitsMenuLanguage()}</>;
 };
