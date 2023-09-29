@@ -1,10 +1,10 @@
-import Ernergie from '../../../../../pages/(traits)/1-drive.fr.mdx';
+import Enthusiasm from '../../../../../pages/(traits)/8-enthusiasm.en.mdx';
 
 export default function Page() {
   return (
     <article>
       <section>
-        <Ernergie />
+        <Enthusiasm />
       </section>
     </article>
   );

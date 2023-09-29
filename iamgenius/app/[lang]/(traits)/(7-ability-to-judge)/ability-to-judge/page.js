@@ -1,10 +1,10 @@
-import Ernergie from '../../../../../pages/(traits)/1-drive.fr.mdx';
+import AbilityToJudge from '../../../../../pages/(traits)/7-ability-to-judge.en.mdx';
 
 export default function Page() {
   return (
     <article>
       <section>
-        <Ernergie />
+        <AbilityToJudge />
       </section>
     </article>
   );

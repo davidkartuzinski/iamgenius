@@ -1,10 +1,10 @@
-import Ernergie from '../../../../../pages/(traits)/1-drive.fr.mdx';
+import Polyvalence from '../../../../../pages/(traits)/19-versatility.fr.mdx';
 
 export default function Page() {
   return (
     <article>
       <section>
-        <Ernergie />
+        <Polyvalence />
       </section>
     </article>
   );
