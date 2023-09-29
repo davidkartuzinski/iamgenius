@@ -1,10 +1,10 @@
-import Ernergie from '../../../../../pages/(traits)/1-drive.fr.mdx';
+import Perfectionnisme from '../../../../../pages/(traits)/17-perfectionism.fr.mdx';
 
 export default function Page() {
   return (
     <article>
       <section>
-        <Ernergie />
+        <Perfectionnisme />
       </section>
     </article>
   );

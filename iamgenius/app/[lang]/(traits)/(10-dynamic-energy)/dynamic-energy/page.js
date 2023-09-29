@@ -1,10 +1,10 @@
-import Ernergie from '../../../../../pages/(traits)/1-drive.fr.mdx';
+import DynamicEnergy from '../../../../../pages/(traits)/10-dynamic-energy.en.mdx';
 
 export default function Page() {
   return (
     <article>
       <section>
-        <Ernergie />
+        <DynamicEnergy />
       </section>
     </article>
   );

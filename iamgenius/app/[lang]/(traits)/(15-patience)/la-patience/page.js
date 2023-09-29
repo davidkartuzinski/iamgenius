@@ -1,10 +1,10 @@
-import Ernergie from '../../../../../pages/(traits)/1-drive.fr.mdx';
+import LaPatience from '../../../../../pages/(traits)/15-patience.fr.mdx';
 
 export default function Page() {
   return (
     <article>
       <section>
-        <Ernergie />
+        <LaPatience />
       </section>
     </article>
   );
