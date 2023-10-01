@@ -1,4 +1,4 @@
-import Persuasion from '../../../../../pages/(traits)/12-persuasion.en.mdx';
+import Persuasion from '../../../../../pages/(traits)/(english)/12-persuasion.en.mdx';
 
 export default function Page() {
   return (

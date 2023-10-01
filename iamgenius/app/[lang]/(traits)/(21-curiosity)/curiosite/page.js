@@ -1,4 +1,4 @@
-import Curiosite from '../../../../../pages/(traits)/21-curiosity.fr.mdx';
+import Curiosite from '../../../../../pages/(traits)/(french)/21-curiosite.fr.mdx';
 
 export default function Page() {
   return (

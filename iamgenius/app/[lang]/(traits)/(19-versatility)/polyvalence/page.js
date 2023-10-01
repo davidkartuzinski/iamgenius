@@ -1,4 +1,4 @@
-import Polyvalence from '../../../../../pages/(traits)/19-versatility.fr.mdx';
+import Polyvalence from '../../../../../pages/(traits)/(french)/19-polyvalence.fr.mdx';
 
 export default function Page() {
   return (

@@ -1,4 +1,4 @@
-import LaPatience from '../../../../../pages/(traits)/15-patience.fr.mdx';
+import LaPatience from '../../../../../pages/(traits)/(french)/15-la-patience.fr.mdx';
 
 export default function Page() {
   return (

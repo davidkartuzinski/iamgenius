@@ -1,4 +1,4 @@
-import AbilityToCommunicate from '../../../../../pages/(traits)/14-ability-to-communicate.en.mdx';
+import AbilityToCommunicate from '../../../../../pages/(traits)/(english)/14-ability-to-communicate.en.mdx';
 
 export default function Page() {
   return (

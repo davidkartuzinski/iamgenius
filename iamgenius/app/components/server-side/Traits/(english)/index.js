@@ -5,7 +5,7 @@ export function Drive() {
     <Trait number='1' name='Drive' language='en'>
       "Geniuses have a strong desire to work hard and long. They're willing to
       give all they've got to a project. Develop your drive by focusing on your
-      future success, and keep goingss."
+      future success, and keep goings."
     </Trait>
   );
 }

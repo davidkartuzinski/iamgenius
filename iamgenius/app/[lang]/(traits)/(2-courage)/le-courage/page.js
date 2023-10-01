@@ -1,4 +1,4 @@
-import LeCourage from '../../../../../pages/(traits)/2-courage.fr.mdx';
+import LeCourage from '../../../../../pages/(traits)/(french)/2-le-courage.fr.mdx';
 
 export default function Page() {
   return (

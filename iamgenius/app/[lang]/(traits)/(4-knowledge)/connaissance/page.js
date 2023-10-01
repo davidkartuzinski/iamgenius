@@ -1,4 +1,4 @@
-import Connaissance from '../../../../../pages/(traits)/4-knowledge.fr.mdx';
+import Connaissance from '../../../../../pages/(traits)/(french)/4-coonnaissance.fr.mdx';
 
 export default function Page() {
   return (

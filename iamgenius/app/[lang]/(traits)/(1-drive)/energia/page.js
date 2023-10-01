@@ -1,10 +1,10 @@
-import DriveEs from '../../../../../pages/(traits)/1-drive.es.mdx';
+import Energia from '../../../../../pages/(traits)/(spanish)/1-energia.es.mdx';
 
 export default function Page() {
   return (
     <article>
       <section>
-        <DriveEs />
+        <Energia />
       </section>
     </article>
   );

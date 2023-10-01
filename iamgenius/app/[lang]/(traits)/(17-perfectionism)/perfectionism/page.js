@@ -1,4 +1,4 @@
-import Perfectionism from '../../../../../pages/(traits)/17-perfectionism.en.mdx';
+import Perfectionism from '../../../../../pages/(traits)/(english)/17-perfectionism.en.mdx';
 
 export default function Page() {
   return (

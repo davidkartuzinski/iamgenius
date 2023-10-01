@@ -1,4 +1,4 @@
-import LeSensDeLHumour from '../../../../../pages/(traits)/18-sense-of-humor.fr.mdx';
+import LeSensDeLHumour from '../../../../../pages/(traits)/(french)/18-la-sens-de-l-humour.fr.mdx';
 
 export default function Page() {
   return (

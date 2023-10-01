@@ -1,4 +1,4 @@
-import WillingnessToTakeChances from '../../../../../pages/(traits)/9-willingness-to-take-chances.en.mdx';
+import WillingnessToTakeChances from '../../../../../pages/(traits)/(english)/9-willingness-to-take-chances.en.mdx';
 
 export default function Page() {
   return (
