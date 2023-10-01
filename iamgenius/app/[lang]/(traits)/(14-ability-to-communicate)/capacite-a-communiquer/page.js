@@ -1,4 +1,4 @@
-import CapaciteACommuniquer from '../../../../../pages/(traits)/14-ability-to-communicate.fr.mdx';
+import CapaciteACommuniquer from '../../../../../pages/(traits)/(french)/14-capacite-a-communiquer.fr.mdx';
 
 export default function Page() {
   return (

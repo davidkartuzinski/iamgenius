@@ -1,4 +1,4 @@
-import Honesty from '../../../../../pages/(traits)/5-honesty.en.mdx';
+import Honesty from '../../../../../pages/(traits)/(english)/5-honesty.en.mdx';
 
 export default function Page() {
   return (

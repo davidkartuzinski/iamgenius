@@ -2,7 +2,6 @@ const nextConfig = {
   // Configure pageExtensions to include md and mdx
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   experimental: {
-    appDir: true,
     mdxRs: true,
   },
 

@@ -1,4 +1,4 @@
-import CapaciteAJuger from '../../../../../pages/(traits)/7-ability-to-judge.fr.mdx';
+import CapaciteAJuger from '../../../../../pages/(traits)/(french)/7-capacite-a-juger.fr.mdx';
 
 export default function Page() {
   return (

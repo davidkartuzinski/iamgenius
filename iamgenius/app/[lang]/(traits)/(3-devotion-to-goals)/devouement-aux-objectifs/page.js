@@ -1,4 +1,4 @@
-import DevouementAuxObjectifs from '../../../../../pages/(traits)/3-devotion-to-goals.fr.mdx';
+import DevouementAuxObjectifs from '../../../../../pages/(traits)/(french)/3-devouement-aux-objectifs.fr.mdx';
 
 export default function Page() {
   return (

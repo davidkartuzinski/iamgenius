@@ -1,4 +1,4 @@
-import DevotionToGoals from '../../../../../pages/(traits)/3-devotion-to-goals.en.mdx';
+import DevotionToGoals from '../../../../../pages/(traits)/(english)/3-devotion-to-goals.en.mdx';
 
 export default function Page() {
   return (

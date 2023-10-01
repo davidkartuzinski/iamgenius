@@ -1,4 +1,4 @@
-import Optimism from '../../../../../pages/(traits)/6-optimism.en.mdx';
+import Optimism from '../../../../../pages/(traits)/(english)/6-optimism.en.mdx';
 
 export default function Page() {
   return (

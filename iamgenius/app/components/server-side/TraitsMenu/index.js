@@ -34,15 +34,15 @@ export const TraitsMenuEN = () => {
 export const TraitsMenuFR = () => {
   return (
     <nav className={styles.traits_menu_nav}>
-      <TraitsMenuLink name='Lecteur' />
-      <TraitsMenuLink name='Courage' />
+      <TraitsMenuLink name='Énergie' />
+      <TraitsMenuLink name='Le Courage' />
       <TraitsMenuLink name='Connaissance' />
       <TraitsMenuLink name='Optimisme' />
-      <TraitsMenuLink name='Enterprise' />
-      <TraitsMenuLink name='Persuasion' />
+      <TraitsMenuLink name='Initiative' />
+      <TraitsMenuLink name='La Persuasion' />
       <TraitsMenuLink name='Individualisme' />
       <TraitsMenuLink name='Idéalisme' />
-      <TraitsMenuLink name='Imagination' />
+      <TraitsMenuLink name="L'imagination" />
     </nav>
   );
 };
@@ -50,12 +50,12 @@ export const TraitsMenuFR = () => {
 export const TraitsMenuES = () => {
   return (
     <nav className={styles.traits_menu_nav}>
-      <TraitsMenuLink name='Conducir' />
+      <TraitsMenuLink name='Energía' />
       <TraitsMenuLink name='Coraje' />
       <TraitsMenuLink name='Conocimiento' />
       <TraitsMenuLink name='Optimismo' />
-      <TraitsMenuLink name='Empresa' />
-      <TraitsMenuLink name='Persuasión' />
+      <TraitsMenuLink name='Iniciativa' />
+      <TraitsMenuLink name='Persuasivo' />
       <TraitsMenuLink name='Individualismo' />
       <TraitsMenuLink name='Idealismo' />
       <TraitsMenuLink name='Imaginación' />

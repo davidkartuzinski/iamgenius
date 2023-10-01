@@ -1,4 +1,4 @@
-import DynamicEnergy from '../../../../../pages/(traits)/10-dynamic-energy.en.mdx';
+import DynamicEnergy from '../../../../../pages/(traits)/(english)/10-dynamic-energy.en.mdx';
 
 export default function Page() {
   return (

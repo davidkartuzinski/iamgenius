@@ -1,4 +1,4 @@
-import VolonteDePrendreDesRisques from '../../../../../pages/(traits)/9-willingness-to-take-chances.fr.mdx';
+import VolonteDePrendreDesRisques from '../../../../../pages/(traits)/(french)/9-volonte-de-prendre-des-risques.fr.mdx';
 
 export default function Page() {
   return (

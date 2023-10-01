@@ -1,4 +1,4 @@
-import Perfectionnisme from '../../../../../pages/(traits)/17-perfectionism.fr.mdx';
+import Perfectionnisme from '../../../../../pages/(traits)/(french)/17-perfectionnisme.fr.mdx';
 
 export default function Page() {
   return (
