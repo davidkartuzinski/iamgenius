@@ -52,10 +52,6 @@
   width: 40%;
 }
 
-.footer_socials a:first-of-type {
-  display: none;
-}
-
 .footer_privacy_links {
   padding-right: 8px;
 }

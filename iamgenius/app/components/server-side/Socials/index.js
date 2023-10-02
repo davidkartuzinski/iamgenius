@@ -1,15 +1,9 @@
 import styles from './socials.module.css';
 import LocalizedMessage from '../../client-side/LocalizedMessage';
 
-import Link from 'next/link';
-import Logo from '../Logo';
-
 export const Socials = async () => {
   return (
     <div className={styles.social_box}>
-      <Link href={`/`}>
-        <Logo />
-      </Link>
       <a
         href='https://www.instagram.com/24geniustraits/'
         target='_blank'

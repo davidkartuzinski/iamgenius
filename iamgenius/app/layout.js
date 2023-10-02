@@ -5,9 +5,6 @@ import {
   tempo_heavy,
   tempo_standard,
 } from './[lang]/fonts/fonts';
-import styles from './layout.module.css';
-
-import { Content } from './components/server-side/Content';
 
 export default function RootLayout({ children }) {
   return (
