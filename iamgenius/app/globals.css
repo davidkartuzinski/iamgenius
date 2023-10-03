@@ -179,6 +179,7 @@ h2 {
 h3 {
   font-size: var(--fs-md);
   line-height: calc(1em + 0.5rem);
+  margin-bottom: 1rem;
 }
 
 h4,
@@ -186,6 +187,7 @@ h5,
 h6 {
   font-size: var(--fs-base);
   line-height: clamp(1.5rem, 2.856vw + 0.857rem, 2rem); /* 24px - 32px */
+  margin-bottom: 0.75rem;
 }
 
 a {
@@ -234,4 +236,9 @@ li {
   overflow: visible !important;
   width: auto !important;
   white-space: normal !important;
+}
+
+.display-block {
+  display: block;
+  margin-bottom: 1rem;
 }
