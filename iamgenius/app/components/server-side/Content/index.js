@@ -1,4 +1,4 @@
-import styles from "./content.module.css";
+import styles from './content.module.css';
 
 export const Content = async ({ children }) => {
   return (

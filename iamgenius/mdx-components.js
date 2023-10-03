@@ -2,7 +2,7 @@
 // to be used in MDX files. You can import and use any
 // React component you want, including components from
 // other libraries.
-
+import Link from 'next/link';
 import { Blockquote } from './app/components/server-side/Blockquote';
 import {
   Drive,
@@ -175,6 +175,7 @@ export function useMDXComponents(components) {
     Idealismo,
     Imaginacion,
 
+    Link,
     ...components,
   };
 }
