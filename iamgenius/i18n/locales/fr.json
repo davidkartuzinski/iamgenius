@@ -1,7 +1,11 @@
 {
   "header.links": [
     { "id": "1", "name": "Accueil", "url": "/" },
-    { "id": "2", "name": "Qui sommes-nous", "url": "/qui-sommes-nous/" },
+    {
+      "id": "2",
+      "name": "Qui sommes-nous",
+      "url": "/qui-sommes-nous/"
+    },
     { "id": "3", "name": "Contactez-nous", "url": "/contactez-nous/" }
   ],
 
@@ -66,5 +70,8 @@
   "about.link": "/qui-sommes-nous/",
 
   "contact.title": "Contactez-nous",
-  "about.title": "À propos de je suis génie"
+  "about.title": "À propos de je suis génie",
+
+  "tweetThis.callToAction": "activez votre génie et utilisez votre",
+  "tweetThis.message": "de 24 traits de génie distincts et uniques que vous pouvez apprendre."
 }

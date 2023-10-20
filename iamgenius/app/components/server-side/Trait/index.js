@@ -1,4 +1,5 @@
 import styles from './trait.module.css';
+
 import { slugify } from '../../../lib/utils';
 import Link from 'next/link';
 import TraitForm from '../../client-side/TraitForm';
@@ -8,7 +9,7 @@ import TraitForm from '../../client-side/TraitForm';
 
 function Trait({ number, name, children, language }) {
   return (
-    <TraitForm>
+    <TraitForm number={number} name={name} language={language}>
       <div id={`${slugify(name)}`} className={styles.traits}>
         <h3>
           <Link
@@ -18,7 +19,7 @@ function Trait({ number, name, children, language }) {
           >
             {number}. {name}.
           </Link>
-        </h3>{' '}
+        </h3>
         {children}
       </div>
     </TraitForm>

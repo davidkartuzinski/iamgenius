@@ -26,5 +26,8 @@
   "about.link": "/about/",
 
   "contact.title": "Contact Us",
-  "about.title": "About Genius"
+  "about.title": "About Genius",
+
+  "tweetThis.callToAction": "activate your genius and use your",
+  "tweetThis.message": "of 24 separate and unique genius traits you can learn."
 }

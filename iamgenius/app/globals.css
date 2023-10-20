@@ -90,12 +90,36 @@ h6 {
 @media (min-width: 360px) {
   @supports (font-size: clamp(1rem, 1vw, 1rem)) {
     :root {
-      --fs-sm: clamp(0.75rem, 0.4286rem + 1.4286vw, 1rem); /* 12px - 16px*/
-      --fs-base: clamp(1.25rem, 0.9286rem + 1.4286vw, 1.5rem); /* 20px - 24px */
-      --fs-md: clamp(1.5rem, 0.8571rem + 2.8571vw, 2rem); /* 24px - 32px */
-      --fs-lg: clamp(1.75rem, 1.1071rem + 2.8571vw, 2.25rem); /* 28px - 36px */
-      --fs-xl: clamp(2rem, 1.3571rem + 2.8571vw, 2.5rem); /* 32px - 40px */
-      --fs-quote: clamp(1.5rem, 0.8571rem + 2.8571vw, 2rem); /* 24px - 32px */
+      --fs-sm: clamp(
+        0.75rem,
+        0.4286rem + 1.4286vw,
+        1rem
+      ); /* 12px - 16px*/
+      --fs-base: clamp(
+        1.25rem,
+        0.9286rem + 1.4286vw,
+        1.5rem
+      ); /* 20px - 24px */
+      --fs-md: clamp(
+        1.5rem,
+        0.8571rem + 2.8571vw,
+        2rem
+      ); /* 24px - 32px */
+      --fs-lg: clamp(
+        1.75rem,
+        1.1071rem + 2.8571vw,
+        2.25rem
+      ); /* 28px - 36px */
+      --fs-xl: clamp(
+        2rem,
+        1.3571rem + 2.8571vw,
+        2.5rem
+      ); /* 32px - 40px */
+      --fs-quote: clamp(
+        1.5rem,
+        0.8571rem + 2.8571vw,
+        2rem
+      ); /* 24px - 32px */
     }
   }
   /* Fallback variables for browsers that don't support clamp */
@@ -138,7 +162,11 @@ body {
 
 @media (min-width: 360px) {
   body {
-    line-height: clamp(1.5rem, 2.856vw + 0.857rem, 2rem); /* 24px - 32px */
+    line-height: clamp(
+      1.5rem,
+      2.856vw + 0.857rem,
+      2rem
+    ); /* 24px - 32px */
   }
 }
 
@@ -186,7 +214,11 @@ h4,
 h5,
 h6 {
   font-size: var(--fs-base);
-  line-height: clamp(1.5rem, 2.856vw + 0.857rem, 2rem); /* 24px - 32px */
+  line-height: clamp(
+    1.5rem,
+    2.856vw + 0.857rem,
+    2rem
+  ); /* 24px - 32px */
   margin-bottom: 0.75rem;
 }
 
@@ -241,4 +273,17 @@ li {
 .display-block {
   display: block;
   margin-bottom: 1rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
 }
