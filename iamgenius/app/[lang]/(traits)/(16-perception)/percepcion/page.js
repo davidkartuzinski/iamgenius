@@ -1,4 +1,4 @@
-import Percepcion from '../../../../../pages/(traits)/(spanish)/16-percepcion.es.mdx';
+import Percepcion from '../../../../../MDXContent/(traits)/(spanish)/16-percepcion.es.mdx';
 
 export default function Page() {
   return (

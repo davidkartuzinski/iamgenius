@@ -1,4 +1,4 @@
-import Curiosity from '../../../../../pages/(traits)/(english)/21-curiosity.en.mdx';
+import Curiosity from '../../../../../MDXContent/(traits)/(english)/21-curiosity.en.mdx';
 
 export default function Page() {
   return (

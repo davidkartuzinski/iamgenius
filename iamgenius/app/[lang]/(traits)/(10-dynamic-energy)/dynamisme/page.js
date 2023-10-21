@@ -1,4 +1,4 @@
-import Dynamisme from '../../../../../pages/(traits)/(french)/10-dynamisme.fr.mdx';
+import Dynamisme from '../../../../../MDXContent/(traits)/(french)/10-dynamisme.fr.mdx';
 
 export default function Page() {
   return (

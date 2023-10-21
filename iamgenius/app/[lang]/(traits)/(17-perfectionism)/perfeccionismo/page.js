@@ -1,4 +1,4 @@
-import Perfeccionismo from '../../../../../pages/(traits)/(spanish)/17-perfeccionismo.es.mdx';
+import Perfeccionismo from '../../../../../MDXContent/(traits)/(spanish)/17-perfeccionismo.es.mdx';
 
 export default function Page() {
   return (

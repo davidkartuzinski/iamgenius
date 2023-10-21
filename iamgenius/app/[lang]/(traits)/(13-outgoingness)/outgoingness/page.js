@@ -1,4 +1,4 @@
-import Outgoingness from '../../../../../pages/(traits)/(english)/13-outgoingness.en.mdx';
+import Outgoingness from '../../../../../MDXContent/(traits)/(english)/13-outgoingness.en.mdx';
 
 export default function Page() {
   return (

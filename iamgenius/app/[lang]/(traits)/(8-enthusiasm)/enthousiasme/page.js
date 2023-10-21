@@ -1,4 +1,4 @@
-import Enthousiasme from '../../../../../pages/(traits)/(french)/8-enthousiasme.fr.mdx';
+import Enthousiasme from '../../../../../MDXContent/(traits)/(french)/8-enthousiasme.fr.mdx';
 
 export default function Page() {
   return (

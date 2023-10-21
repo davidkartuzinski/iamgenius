@@ -1,4 +1,4 @@
-import Adaptabilite from '../../../../../pages/(traits)/(french)/20-adaptabilite.fr.mdx';
+import Adaptabilite from '../../../../../MDXContent/(traits)/(french)/20-adaptabilite.fr.mdx';
 
 export default function Page() {
   return (

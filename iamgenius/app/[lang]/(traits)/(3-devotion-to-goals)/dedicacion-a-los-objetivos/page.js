@@ -1,4 +1,4 @@
-import DedicacionALosObjetivos from '../../../../../pages/(traits)/(spanish)/3-dedicacion-a-los-objetivos.es.mdx';
+import DedicacionALosObjetivos from '../../../../../MDXContent/(traits)/(spanish)/3-dedicacion-a-los-objetivos.es.mdx';
 
 export default function Page() {
   return (

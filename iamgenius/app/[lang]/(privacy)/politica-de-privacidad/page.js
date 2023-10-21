@@ -1,4 +1,4 @@
-import PrivacyEs from '../../../../pages/privacy.es.mdx';
+import PrivacyEs from '../../../../MDXContent/privacy.es.mdx';
 
 export default function Page() {
   return (

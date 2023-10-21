@@ -1,4 +1,4 @@
-import Imaginacion from '../../../../../pages/(traits)/(spanish)/24-imaginacion.es.mdx';
+import Imaginacion from '../../../../../MDXContent/(traits)/(spanish)/24-imaginacion.es.mdx';
 
 export default function Page() {
   return (

@@ -1,4 +1,4 @@
-import Courage from '../../../../../pages/(traits)/(english)/2-courage.en.mdx';
+import Courage from '../../../../../MDXContent/(traits)/(english)/2-courage.en.mdx';
 
 export default function Page() {
   return (

@@ -1,4 +1,4 @@
-import Extravertie from '../../../../../pages/(traits)/(french)/13-extravertie.fr.mdx';
+import Extravertie from '../../../../../MDXContent/(traits)/(french)/13-extravertie.fr.mdx';
 
 export default function Page() {
   return (

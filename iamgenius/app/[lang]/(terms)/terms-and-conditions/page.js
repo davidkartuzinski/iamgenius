@@ -1,4 +1,4 @@
-import TermsEn from '../../../../pages/terms.en.mdx';
+import TermsEn from '../../../../MDXContent/terms.en.mdx';
 
 export default function Page() {
   return (

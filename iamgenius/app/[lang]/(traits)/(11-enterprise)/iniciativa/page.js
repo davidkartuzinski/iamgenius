@@ -1,4 +1,4 @@
-import Iniciativa from '../../../../../pages/(traits)/(spanish)/11-iniciativa.es.mdx';
+import Iniciativa from '../../../../../MDXContent/(traits)/(spanish)/11-iniciativa.es.mdx';
 
 export default function Page() {
   return (

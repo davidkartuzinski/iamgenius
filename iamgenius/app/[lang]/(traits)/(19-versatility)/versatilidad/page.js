@@ -1,4 +1,4 @@
-import Versatilidad from '../../../../../pages/(traits)/(spanish)/19-versatilidad.es.mdx';
+import Versatilidad from '../../../../../MDXContent/(traits)/(spanish)/19-versatilidad.es.mdx';
 
 export default function Page() {
   return (

@@ -1,4 +1,4 @@
-import AboutEs from '../../../../pages/about.es.mdx';
+import AboutEs from '../../../../MDXContent/about.es.mdx';
 
 export default function Page() {
   return (
