@@ -1,0 +1,19 @@
+@media screen {
+  .hidden_for_print {
+    display: none; /* Hide the div for screen view */
+  }
+}
+
+@media print {
+  .hidden_for_print {
+    display: block; /* Show the div for printing */
+    height: 40vh;
+    display: grid;
+    place-items: center;
+    border: 0.5px solid black;
+    padding: 4rem 3rem;
+  }
+  .hidden_for_print span {
+    text-decoration: underline;
+  }
+}

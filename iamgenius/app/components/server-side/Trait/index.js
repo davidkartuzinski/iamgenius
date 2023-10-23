@@ -19,7 +19,7 @@ function Trait({ number, name, children, language }) {
           >
             {number}. {name}.
           </Link>
-        </h3>
+        </h3>{' '}
         {children}
       </div>
     </TraitForm>
