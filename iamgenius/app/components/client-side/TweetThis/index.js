@@ -34,6 +34,8 @@ function TweetThis({
     }
   }, []);
 
+  // TODO: Change the tweet text from having two times the name of the trait and add the name to an image - a random image
+
   return (
     <>
       <span
@@ -42,7 +44,6 @@ function TweetThis({
       >
         <article>
           <h3 ref={h3Ref} id={`h3-${number}`}>
-            <strong> {name} — </strong>
             <LocalizedMessage id='tweetThis.callToAction' />{' '}
             {name.toLowerCase()}
           </h3>

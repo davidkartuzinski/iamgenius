@@ -11,9 +11,11 @@
 
   "traitsmenu.aria.message": "Aller aux caractéristiques",
 
-  "socials.instagram": "Compte Instagram",
-  "socials.twitter": "Compte Twitter / X",
-  "socials.github": "Compte GitHub",
+  "icons.instagram": "Compte Instagram",
+  "icons.twitter": "Compte Twitter / X",
+  "icons.github": "Compte GitHub",
+  "icons.PDFIcon": "Icône Imprimer au format PDF",
+  "icons.linkIcon": "Cliquez sur le lien pour accéder à la caractéristique",
 
   "footer.languages": "Langues",
   "footer.follow-us": "Suivez-nous",
@@ -73,7 +75,7 @@
   "about.title": "À propos de je suis génie",
 
   "traitForm.takeAction": "Passer à l'action",
-  "tweetThis.callToAction": "activez votre génie et utilisez votre",
+  "tweetThis.callToAction": "Activez votre génie et utilisez votre",
   "tweetThis.message": "de 24 traits de génie distincts et uniques que vous pouvez apprendre.",
 
   "printPDF.iAmGenius": "Je suis génie"

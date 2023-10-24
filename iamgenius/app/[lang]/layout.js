@@ -32,6 +32,8 @@ const Layout = ({ children, params }) => {
         lang={params.lang}
         // dir={dir(lang)}
       >
+        {/* add tweetthis and pdf in a component and surrond it over children below */}
+
         <Header lang={params.lang} />
         <Content lng={params.lang}>{children}</Content>
         <Footer lng={params.lang} />

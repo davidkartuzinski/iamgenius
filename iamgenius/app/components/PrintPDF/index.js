@@ -4,7 +4,7 @@ import styles from './print-pdf.module.css';
 
 import React from 'react';
 import { useReactToPrint } from 'react-to-print';
-import { PDFIcon } from '../server-side/SocialIconLinks';
+import { PDFIcon } from '../server-side/IconLinks';
 import LocalizedMessage from '../client-side/LocalizedMessage';
 
 import { slugify } from '../../lib/utils';

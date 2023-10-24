@@ -1,7 +1,7 @@
 import styles from './tweet-this-button.module.css';
 
 import React from 'react';
-import { Twitter } from '../../server-side/SocialIconLinks';
+import { TwitterIcon } from '../../server-side/IconLinks';
 import { slugify } from '@/app/lib/utils';
 
 function TweetShareButton({
@@ -26,7 +26,7 @@ function TweetShareButton({
 
   return (
     <>
-      <Twitter width={width} height={height} link={twitterUrl} />
+      <TwitterIcon width={width} height={height} link={twitterUrl} />
     </>
   );
 }

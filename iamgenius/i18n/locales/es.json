@@ -7,9 +7,11 @@
 
   "traitsmenu.aria.message": "Ir a rasgo",
 
-  "socials.instagram": "Cuenta de Instagram",
-  "socials.twitter": "Cuenta Twitter / X",
-  "socials.github": "Cuenta GitHub",
+  "icons.instagram": "Cuenta de Instagram",
+  "icons.twitter": "Cuenta Twitter / X",
+  "icons.github": "Cuenta GitHub",
+  "icons.PDFIcon": "Icono Imprimir en PDF",
+  "icons.linkIcon": "Haga clic en el enlace para ir a la característica",
 
   "footer.languages": "Idiomas",
   "footer.follow-us": "Síganos",
@@ -69,7 +71,7 @@
   "about.title": "Acerca de genio",
 
   "traitForm.takeAction": "Tomar acción",
-  "tweetThis.callToAction": "activa tu genio y usa tu",
+  "tweetThis.callToAction": "Activa tu genio y usa tu",
   "tweetThis.message": "de 24 rasgos de genio únicos y separados que puedes aprender.",
 
   "printPDF.iAmGenius": "Soy genio"

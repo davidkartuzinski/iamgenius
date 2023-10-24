@@ -1,16 +1,12 @@
 import styles from './socials.module.css';
-import {
-  Instagram,
-  Twitter,
-  GitHub,
-} from '../../server-side/SocialIconLinks';
+import { InstagramIcon, TwitterIcon, GitHubIcon } from '../IconLinks';
 
 export const Socials = async () => {
   return (
     <div className={styles.social_box}>
-      <Instagram />
-      <Twitter />
-      <GitHub />
+      <InstagramIcon />
+      <TwitterIcon />
+      <GitHubIcon />
     </div>
   );
 };
