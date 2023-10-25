@@ -6,7 +6,7 @@ import { RowSpacingIcon, Cross2Icon } from '@radix-ui/react-icons';
 import LocalizedMessage from '../../client-side/LocalizedMessage';
 
 import TweetThis from '../TweetThis';
-import PrintPDF from '../../PrintPDF';
+import PrintPDF from '../PrintPDF';
 
 function TraitForm({ number, name, children, language }) {
   const [open, setOpen] = React.useState(false);
