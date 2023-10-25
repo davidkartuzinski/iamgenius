@@ -7,6 +7,7 @@ import LocalizedMessage from '../../client-side/LocalizedMessage';
 
 import TweetThis from '../TweetThis';
 import PrintPDF from '../PrintPDF';
+import RightArrowNavigation from '../../server-side/RightArrowNavigation';
 
 function TraitForm({ number, name, children, language }) {
   const [open, setOpen] = React.useState(false);
@@ -46,6 +47,7 @@ function TraitForm({ number, name, children, language }) {
           >
             {children}
           </PrintPDF>
+          <RightArrowNavigation language={language} name={name} />
         </Collapsible.Content>
       </div>
     </Collapsible.Root>

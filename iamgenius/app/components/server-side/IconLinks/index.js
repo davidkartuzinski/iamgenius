@@ -1,7 +1,14 @@
 import styles from './icon-links.module.css';
 import LocalizedMessage from '../../client-side/LocalizedMessage';
+import Link from 'next/link';
 
-import { Link, FileText, Github, Instagram } from 'lucide-react';
+import {
+  Link as LinkIconLucide,
+  FileText,
+  Github,
+  Instagram,
+  ArrowBigRightDash,
+} from 'lucide-react';
 
 export const InstagramIcon = ({
   link = 'https://www.instagram.com/24geniustraits/',
@@ -90,7 +97,7 @@ export const LinkIcon = ({
 }) => {
   return (
     <>
-      <Link
+      <LinkIconLucide
         size={size}
         color={color}
         strokeWidth={strokeWidth}
@@ -136,5 +143,28 @@ export const HamburgerIcon = ({
         />
       </svg>
     </span>
+  );
+};
+
+export const RightArrowIcon = ({
+  link = '#',
+  width = '1.7rem',
+  height = '1.7rem',
+}) => {
+  return (
+    <Link
+      href={link}
+      style={{
+        width: width,
+        height: height,
+        display: 'inline-block',
+      }}
+    >
+      <ArrowBigRightDash color='#333333' strokeWidth={1.75} />
+
+      <span className='sr_only'>
+        <LocalizedMessage id='icons.PDFIcon' />
+      </span>
+    </Link>
   );
 };
