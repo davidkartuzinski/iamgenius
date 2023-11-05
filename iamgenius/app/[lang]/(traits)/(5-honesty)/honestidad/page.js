@@ -1,4 +1,4 @@
-import Honestidad from '../../../../../pages/(traits)/(spanish)/5-honestidad.es.mdx';
+import Honestidad from '../../../../../MDXContent/(traits)/(spanish)/5-honestidad.es.mdx';
 
 export default function Page() {
   return (

@@ -1,4 +1,4 @@
-import Extrovertido from '../../../../../pages/(traits)/(spanish)/13-extrovertido.es.mdx';
+import Extrovertido from '../../../../../MDXContent/(traits)/(spanish)/13-extrovertido.es.mdx';
 
 export default function Page() {
   return (

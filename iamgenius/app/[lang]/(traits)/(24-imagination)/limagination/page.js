@@ -1,4 +1,4 @@
-import LImagination from '../../../../../pages/(traits)/(french)/24-l-imagination.fr.mdx';
+import LImagination from '../../../../../MDXContent/(traits)/(french)/24-l-imagination.fr.mdx';
 
 export default function Page() {
   return (

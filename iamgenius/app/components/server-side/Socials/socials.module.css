@@ -5,13 +5,3 @@
   align-items: center;
   /* max-width: 166px; */
 }
-
-.social_icons {
-  width: 1.7rem;
-  height: 1.7rem;
-}
-
-.social_links {
-  text-decoration: none;
-  color: var(--grey);
-}

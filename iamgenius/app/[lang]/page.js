@@ -1,6 +1,6 @@
-import HomeEn from '../../pages/home.en.mdx';
-import HomeEs from '../../pages/home.es.mdx';
-import HomeFr from '../../pages/home.fr.mdx';
+import HomeEn from '../../MDXContent/home.en.mdx';
+import HomeEs from '../../MDXContent/home.es.mdx';
+import HomeFr from '../../MDXContent/home.fr.mdx';
 
 export default function Page({ params }) {
   const HomeLanguage = () => {

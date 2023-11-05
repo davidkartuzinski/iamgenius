@@ -1,4 +1,4 @@
-import Idealisme from '../../../../../pages/(traits)/(french)/23-idealisme.fr.mdx';
+import Idealisme from '../../../../../MDXContent/(traits)/(french)/23-idealisme.fr.mdx';
 
 export default function Page() {
   return (

@@ -1,4 +1,4 @@
-import Persuasivo from '../../../../../pages/(traits)/(spanish)/12-persuasivo.es.mdx';
+import Persuasivo from '../../../../../MDXContent/(traits)/(spanish)/12-persuasivo.es.mdx';
 
 export default function Page() {
   return (

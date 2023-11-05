@@ -1,4 +1,4 @@
-import Knowledge from '../../../../../pages/(traits)/(english)/4-knowledge.en.mdx';
+import Knowledge from '../../../../../MDXContent/(traits)/(english)/4-knowledge.en.mdx';
 
 export default function Page() {
   return (

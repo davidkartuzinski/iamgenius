@@ -1,4 +1,4 @@
-import Individualism from '../../../../../pages/(traits)/(english)/22-individualism.en.mdx';
+import Individualism from '../../../../../MDXContent/(traits)/(english)/22-individualism.en.mdx';
 
 export default function Page() {
   return (

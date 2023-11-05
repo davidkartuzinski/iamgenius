@@ -1,4 +1,4 @@
-import PrivacyEn from '../../../../pages/privacy.en.mdx';
+import PrivacyEn from '../../../../MDXContent/privacy.en.mdx';
 
 export default function Page() {
   return (

@@ -1,4 +1,4 @@
-import Energia from '../../../../../pages/(traits)/(spanish)/1-energia.es.mdx';
+import Energia from '../../../../../MDXContent/(traits)/(spanish)/1-energia.es.mdx';
 
 export default function Page() {
   return (

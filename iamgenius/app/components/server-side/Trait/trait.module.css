@@ -1,5 +1,5 @@
 .traits {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   width: 100%;
   padding: 0 1.5rem;
 }
@@ -9,13 +9,16 @@
 }
 .traits h3 {
   font-family: var(--font-frank_ruhl_libre), serif;
-  line-height: clamp(1.5rem, 2.856vw + 0.857rem, 2rem); /* 24px - 32px */
+  line-height: clamp(
+    1.5rem,
+    2.856vw + 0.857rem,
+    2rem
+  ); /* 24px - 32px */
   display: inline;
 }
 
 .traits h3 a {
   color: var(--grey);
-  cursor: pointer;
 }
 
 .traits h3:hover,
@@ -24,20 +27,48 @@
   color: var(--orange);
 }
 
-/* so "inspired" by this website */
-/* https://almanac.httparchive.org/en/2020/accessibility#zooming-and-scaling */
-
-.anchor_link {
-  padding-left: 32px;
-  margin-left: -32px;
+.trait_hr {
+  margin: 0;
+  border: none;
 }
 
-.anchor_link:hover::before,
-.anchor_link:focus::before {
-  content: url('~/public/link/link.svg');
-  left: -20px;
-  position: relative;
-  float: left;
-  width: 0;
-  height: 0;
+.anchor_link {
+  padding: none;
+}
+
+.anchor_link svg {
+  opacity: 0;
+}
+
+@media only screen and (min-width: 766px) {
+  .anchor_link {
+    padding-left: 32px;
+    margin-left: -32px;
+  }
+
+  .anchor_link svg {
+    opacity: 0;
+  }
+
+  .anchor_link svg:hover {
+    opacity: 1;
+  }
+}
+
+/* Medium devices (tablets, 576px and up) */
+@media (min-width: 576px) {
+  .traits {
+    margin-bottom: 2rem;
+    height: 150px;
+    position: relative;
+  }
+  .trait_hr {
+    margin: 1.5rem 0 1rem;
+    border: 0.5px solid var(--orange);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+  }
 }

@@ -1,4 +1,4 @@
-import TermsEs from '../../../../pages/terms.es.mdx';
+import TermsEs from '../../../../MDXContent/terms.es.mdx';
 
 export default function Page() {
   return (

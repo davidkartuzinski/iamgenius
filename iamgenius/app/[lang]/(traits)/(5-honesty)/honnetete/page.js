@@ -1,4 +1,4 @@
-import Honnetete from '../../../../../pages/(traits)/(french)/5-honnetete.fr.mdx';
+import Honnetete from '../../../../../MDXContent/(traits)/(french)/5-honnetete.fr.mdx';
 
 export default function Page() {
   return (

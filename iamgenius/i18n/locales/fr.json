@@ -1,15 +1,25 @@
 {
   "header.links": [
     { "id": "1", "name": "Accueil", "url": "/" },
-    { "id": "2", "name": "Qui sommes-nous", "url": "/qui-sommes-nous/" },
+    {
+      "id": "2",
+      "name": "Qui sommes-nous",
+      "url": "/qui-sommes-nous/"
+    },
     { "id": "3", "name": "Contactez-nous", "url": "/contactez-nous/" }
   ],
 
   "traitsmenu.aria.message": "Aller aux caractéristiques",
 
-  "socials.instagram": "Compte Instagram",
-  "socials.twitter": "Compte Twitter / X",
-  "socials.github": "Compte GitHub",
+  "icons.instagram": "Cliquez sur le logo pour suivre le compte Instagram Iamgenius.io",
+  "icons.github": "Cliquez sur le logo pour suivre le compte GitHub pour Iamgenius.io",
+  "icons.linkIcon": "Cliquez sur le lien pour accéder à la caractéristique",
+  "icons.GoLeftIcon": "Cliquez sur la flèche pour revenir à la page d'accueil",
+  "icons.GoRightIcon": "Cliquez sur la flèche pour lire le trait complet",
+  "icons.twitter": "Cliquez sur le logo X pour publier un trait sur votre compte sur X (alias Twitter)",
+  "icons.PDFIcon": "Cliquez sur l'icône PDF pour imprimer le trait",
+  "icons.twitterFollow": "Cliquez sur le logo X pour suivre Iamgenius.io sur la plateforme X",
+  "icons.ClickToCopyIcon": "Cliquez pour copier le lien à partager sur les réseaux sociaux comme Facebook, Instagram ou TikTok.",
 
   "footer.languages": "Langues",
   "footer.follow-us": "Suivez-nous",
@@ -66,5 +76,11 @@
   "about.link": "/qui-sommes-nous/",
 
   "contact.title": "Contactez-nous",
-  "about.title": "À propos de je suis génie"
+  "about.title": "À propos de je suis génie",
+
+  "traitForm.takeAction": "Passer à l'action",
+  "tweetThis.callToAction": "Activez votre génie et utilisez votre",
+  "tweetThis.message": "de 24 traits de génie distincts et uniques que vous pouvez apprendre.",
+
+  "printPDF.iAmGenius": "Je suis génie"
 }

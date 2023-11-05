@@ -1,4 +1,4 @@
-import ContactEs from '../../../../pages/contact.es.mdx';
+import ContactEs from '../../../../MDXContent/contact.es.mdx';
 
 export default function Page() {
   return (

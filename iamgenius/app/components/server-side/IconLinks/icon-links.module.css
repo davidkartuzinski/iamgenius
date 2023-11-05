@@ -1,0 +1,8 @@
+.social_links {
+  color: var(--grey);
+  text-decoration: none;
+}
+
+.social_links:hover {
+  color: var(--orange);
+}

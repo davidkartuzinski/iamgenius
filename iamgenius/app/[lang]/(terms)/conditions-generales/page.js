@@ -1,4 +1,4 @@
-import TermsFr from '../../../../pages/terms.fr.mdx';
+import TermsFr from '../../../../MDXContent/terms.fr.mdx';
 
 export default function Page() {
   return (

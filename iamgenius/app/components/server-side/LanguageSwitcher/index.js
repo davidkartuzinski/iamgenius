@@ -9,7 +9,9 @@ export const LanguageSwitcher = () => {
   return (
     <div className={styles.translation_switcher}>
       <span>
-        <strong>{lang}</strong>
+        <strong style={{ borderBottom: '2px solid var(--orange)' }}>
+          {lang}
+        </strong>
       </span>
       <TranslateLinks />
     </div>

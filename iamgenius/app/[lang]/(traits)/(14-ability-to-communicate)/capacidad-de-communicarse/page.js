@@ -1,4 +1,4 @@
-import CapacidadDeCommunicarse from '../../../../../pages/(traits)/(spanish)/14-capacidad-de-communicarse.es.mdx';
+import CapacidadDeCommunicarse from '../../../../../MDXContent/(traits)/(spanish)/14-capacidad-de-communicarse.es.mdx';
 
 export default function Page() {
   return (

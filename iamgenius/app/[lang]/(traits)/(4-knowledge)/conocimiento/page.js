@@ -1,4 +1,4 @@
-import Conocimiento from '../../../../../pages/(traits)/(spanish)/4-conocimiento.es.mdx';
+import Conocimiento from '../../../../../MDXContent/(traits)/(spanish)/4-conocimiento.es.mdx';
 
 export default function Page() {
   return (

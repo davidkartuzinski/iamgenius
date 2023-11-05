@@ -1,4 +1,4 @@
-import AboutFr from '../../../../pages/about.fr.mdx';
+import AboutFr from '../../../../MDXContent/about.fr.mdx';
 
 export default function Page() {
   return (

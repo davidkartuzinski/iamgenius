@@ -1,4 +1,4 @@
-import CapacidadDeJuzgar from '../../../../../pages/(traits)/(spanish)/7-capacida-de-juzgar.es.mdx';
+import CapacidadDeJuzgar from '../../../../../MDXContent/(traits)/(spanish)/7-capacida-de-juzgar.es.mdx';
 
 export default function Page() {
   return (

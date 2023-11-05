@@ -1,4 +1,4 @@
-import Patience from '../../../../../pages/(traits)/(english)/15-patience.en.mdx';
+import Patience from '../../../../../MDXContent/(traits)/(english)/15-patience.en.mdx';
 
 export default function Page() {
   return (

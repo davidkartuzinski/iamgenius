@@ -1,4 +1,4 @@
-import ContactEn from '../../../../pages/contact.en.mdx';
+import ContactEn from '../../../../MDXContent/contact.en.mdx';
 
 export default function Page() {
   return (
