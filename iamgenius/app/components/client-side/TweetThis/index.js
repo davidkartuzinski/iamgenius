@@ -13,6 +13,7 @@ function TweetThis({
   number,
   language,
   children,
+  textID,
 }) {
   const quote = children.props.children[1];
 
@@ -64,6 +65,7 @@ function TweetThis({
         children={children}
         titleText={titleText}
         paraText={paraText}
+        textID={textID}
       />
     </>
   );

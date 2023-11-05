@@ -7,11 +7,15 @@
 
   "traitsmenu.aria.message": "Ir a rasgo",
 
-  "icons.instagram": "Cuenta de Instagram",
-  "icons.twitter": "Cuenta Twitter / X",
-  "icons.github": "Cuenta GitHub",
-  "icons.PDFIcon": "Icono Imprimir en PDF",
+  "icons.instagram": "Haga clic en el logo para seguir la cuenta de Instagram de Iamgenius.io",
+  "icons.github": "Haga clic en el logo para seguir la cuenta de GitHub de Iamgenius.io",
   "icons.linkIcon": "Haga clic en el enlace para ir a la característica",
+  "icons.GoLeftIcon": "Haga clic en la flecha para regresar a la página de inicio",
+  "icons.GoRightIcon": "Haga clic en la flecha para leer el rasgo completo",
+  "icons.twitter": "Haga clic en el logotipo de X para publicar un rasgo en su cuenta en X (también conocida como Twitter)",
+  "icons.PDFIcon": "Haga clic en el icono de PDF para imprimir el rasgo",
+  "icons.twitterFollow": "Haga clic en el logotipo de X y siga a Iamgenius.io en la plataforma X",
+  "icons.ClickToCopyIcon": "Haga clic para copiar el enlace y compartirlo en redes sociales como Facebook, Instagram o TikTok.",
 
   "footer.languages": "Idiomas",
   "footer.follow-us": "Síganos",

@@ -19,3 +19,5 @@ I have had to learn how to do various things for this app. The following people 
 6. Tool to ensure colors were accessible: [Accessible Color Generator by Erik Kennedy](https://www.learnui.design/tools/accessible-color-generator.html)
 
 7. I used a few of the ready-made components from [React Aria](https://react-spectrum.adobe.com/react-aria/index.html). This helped with accessibility. For example, the hamburger menu on the website is using the [Menu Component](https://react-spectrum.adobe.com/react-aria/Menu.html) underneath it all.
+
+8. A nice article by [Dan Valinotti](https://dval.dev/) on how to [implement copy-to-clipboard](https://blog.logrocket.com/implementing-copy-clipboard-react-clipboard-api/) for a React app. This helped with the feature that allows copying the link to share on Facebook, TikTok and other Social media.

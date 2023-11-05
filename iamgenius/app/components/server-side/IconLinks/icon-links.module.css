@@ -1,6 +1,6 @@
 .social_links {
-  text-decoration: none;
   color: var(--grey);
+  text-decoration: none;
 }
 
 .social_links:hover {

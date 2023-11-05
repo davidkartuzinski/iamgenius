@@ -7,11 +7,15 @@
 
   "traitsmenu.aria.message": "Go to trait",
 
-  "icons.instagram": "Instagram Account",
-  "icons.twitter": "Twitter / X Account",
-  "icons.github": "GitHub Account",
-  "icons.PDFIcon": "Print to PDF Icon",
+  "icons.instagram": "Click logo to follow the Iamgenius.io Instagram Account",
+  "icons.github": "Click logo to follow the GitHub Account for Iamgenius.io",
   "icons.linkIcon": "Click link to go to trait",
+  "icons.GoLeftIcon": "Click arrow to return to the home page",
+  "icons.GoRightIcon": "Click arrow to read the complete trait",
+  "icons.twitter": "Click X logo to post trait to your accont on X (aka Twitter)",
+  "icons.PDFIcon": "Click PDF icon to print the trait",
+  "icons.twitterFollow": "Click X logo to follow Iamgenius.io on the X platform",
+  "icons.ClickToCopyIcon": "Click to copy link to share on Social Media like Facebook, Instagram or TikTok.",
 
   "footer.languages": "Languages",
   "footer.follow-us": "Follow us",

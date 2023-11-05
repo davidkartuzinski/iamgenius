@@ -11,11 +11,15 @@
 
   "traitsmenu.aria.message": "Aller aux caractéristiques",
 
-  "icons.instagram": "Compte Instagram",
-  "icons.twitter": "Compte Twitter / X",
-  "icons.github": "Compte GitHub",
-  "icons.PDFIcon": "Icône Imprimer au format PDF",
+  "icons.instagram": "Cliquez sur le logo pour suivre le compte Instagram Iamgenius.io",
+  "icons.github": "Cliquez sur le logo pour suivre le compte GitHub pour Iamgenius.io",
   "icons.linkIcon": "Cliquez sur le lien pour accéder à la caractéristique",
+  "icons.GoLeftIcon": "Cliquez sur la flèche pour revenir à la page d'accueil",
+  "icons.GoRightIcon": "Cliquez sur la flèche pour lire le trait complet",
+  "icons.twitter": "Cliquez sur le logo X pour publier un trait sur votre compte sur X (alias Twitter)",
+  "icons.PDFIcon": "Cliquez sur l'icône PDF pour imprimer le trait",
+  "icons.twitterFollow": "Cliquez sur le logo X pour suivre Iamgenius.io sur la plateforme X",
+  "icons.ClickToCopyIcon": "Cliquez pour copier le lien à partager sur les réseaux sociaux comme Facebook, Instagram ou TikTok.",
 
   "footer.languages": "Langues",
   "footer.follow-us": "Suivez-nous",

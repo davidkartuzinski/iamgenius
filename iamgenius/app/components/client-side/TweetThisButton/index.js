@@ -12,6 +12,7 @@ function TweetShareButton({
   children,
   titleText,
   paraText,
+  textID,
 }) {
   const quote = children.props.children[1];
 
@@ -26,7 +27,12 @@ function TweetShareButton({
 
   return (
     <>
-      <TwitterIcon width={width} height={height} link={twitterUrl} />
+      <TwitterIcon
+        width={width}
+        height={height}
+        link={twitterUrl}
+        textID={textID}
+      />
     </>
   );
 }
