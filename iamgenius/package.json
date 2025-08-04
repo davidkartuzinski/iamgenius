@@ -9,6 +9,11 @@
     "lint": "next lint",
     "prod": "npm run build; npm run start"
   },
+
+  "engines": {
+    "node": "22.x"
+  },
+
   "dependencies": {
     "@mdx-js/loader": "^2.3.0",
     "@mdx-js/react": "^2.3.0",
@@ -32,4 +37,5 @@
     "eslint-plugin-formatjs": "^4.10.5",
     "prettier": "^3.0.1"
   }
+
 }

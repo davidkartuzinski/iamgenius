@@ -8,7 +8,7 @@ import {
   Button,
   Popover,
   Menu,
-  Item,
+  MenuItem,
 } from 'react-aria-components';
 
 import { ActiveLink } from '../../client-side/ActiveLink';
@@ -23,15 +23,15 @@ const hamburgerMenuLinks = (
 ) => {
   return (
     <>
-      <Item className={styles.hamburger_menu_item}>
+      <MenuItem className={styles.hamburger_menu_item}>
         <ActiveLink href={`/${path1}/`}>{label1}</ActiveLink>
-      </Item>
-      <Item className={styles.hamburger_menu_item}>
+      </MenuItem>
+      <MenuItem className={styles.hamburger_menu_item}>
         <ActiveLink href={`/${path2}/`}>{label2}</ActiveLink>
-      </Item>
-      <Item className={styles.hamburger_menu_item}>
+      </MenuItem>
+      <MenuItem className={styles.hamburger_menu_item}>
         <ActiveLink href={`/${path3}/`}>{label3}</ActiveLink>
-      </Item>
+      </MenuItem>
     </>
   );
 };
